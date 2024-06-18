@@ -16,26 +16,26 @@
 
 ## Table of Contents
 
-* [Introduction](#-1-introduction)
-* [HTML Tags](#-2-html-tags)
-* [HTML Events](#-3-html-events)
-* [HTML Forms](#-4-html-forms)
-* [HTML Tables](#-5-html-tables)
-* [HTML Lists](#-6-html-lists)
-* [HTML Iframe](#-6-html-iframe)
-* [HTML URL](#-6-html-url)
-* [HTML SVG](#-7-html-svg)
-* [HTML Canvas](#-8-html-canvas)
-* [HTML Storage](#-9-html-storage)
-* [HTML APIs](#-10-html-apis)
-* [HTML Drag and Drop](#-11-html-drag-and-drop)
-* [HTML Web Worker](#-12-html-web-worker)
-* [HTML Accessibility](#-13-html-accessibility)
-* [Miscellaneous](#-14-miscellaneous)
+* [Introduction](#1-introduction)
+* [HTML Tags](#2-html-tags)
+* [HTML Events](#3-html-events)
+* [HTML Forms](#4-html-forms)
+* [HTML Tables](#5-html-tables)
+* [HTML Lists](#6-html-lists)
+* [HTML Iframe](#6-html-iframe)
+* [HTML URL](#6-html-url)
+* [HTML SVG](#7-html-svg)
+* [HTML Canvas](#8-html-canvas)
+* [HTML Storage](#9-html-storage)
+* [HTML APIs](#10-html-apis)
+* [HTML Drag and Drop](#11-html-drag-and-drop)
+* [HTML Web Worker](#12-html-web-worker)
+* [HTML Accessibility](#13-html-accessibility)
+* [Miscellaneous](#14-miscellaneous)
 
 <br/>
 
-## # 1. Introduction
+<h2 id="-1-introduction">1. Introduction</h2>
 
 <br/>
 
@@ -2205,6 +2205,7 @@ The `<mark>` HTML element represents text which is marked or highlighted for ref
 HTML tags are used to influence the way our pages appear in search results. With the help of certain tags, we can turn regular search snippets into rich snippets, and maybe even into featured snippets. And, as our search snippets get more advanced, they are able to secure better **Search Engine Results Pages (SERP)** positions and attract more traffic.
 
 Here are all the HTML tags that still matter:
+<h2 id="2-html-tags">2. HTML Tags</h2>
 
 **1. Title tag:**
 
