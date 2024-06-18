@@ -1028,11 +1028,11 @@ The enctype attribute specifies how the form-data should be encoded when submitt
 </form>
 ```
 
-|Sl.No|Value	                |Description                        |
+|Sl.No|Value                    |Description                        |
 |-----|-------------------------|-----------------------------------|
-| 01. |application/x-www-form-urlencoded  |	Default. All characters are encoded before sent (spaces are converted to "+" symbols, and special characters are converted to ASCII HEX values)|
-| 02. |multipart/form-data	    |No characters are encoded. This value is required when you are using forms that have a file upload control |
-| 03.  |text/plain	            |Spaces are converted to "+" symbols, but no special characters are encoded|
+| 01. |application/x-www-form-urlencoded  |    Default. All characters are encoded before sent (spaces are converted to "+" symbols, and special characters are converted to ASCII HEX values)|
+| 02. |multipart/form-data        |No characters are encoded. This value is required when you are using forms that have a file upload control |
+| 03.  |text/plain                |Spaces are converted to "+" symbols, but no special characters are encoded|
 
 <div align="right">
     <b><a href="#table-of-contents">↥ back to top</a></b>
@@ -1360,13 +1360,13 @@ Since the parts of the page were drawn into potentially multiple layers they nee
 
 ## Q. Explain about HTML Layout Engines used by browsers?
 
-|Engine	      |Status   |Embedded in           |
+|Engine          |Status   |Embedded in           |
 |-------------|-----------------|--------------|
-|WebKit	      |Active	|Safari browser, plus all browsers hosted on the iOS App Store                        |
-|Blink	      |Active	|Google Chrome and all other Chromium-based browsers like Opera and Microsoft Edge    |
-|Gecko	      |Active	|Firefox browser and Thunderbird email client, plus forks like SeaMonkey and Waterfox |
-|EdgeHTML	  |Discontinued	  |formerly in the Microsoft Edge browser                                         |
-|Trident	  |Discontinued	  |Internet Explorer browser and Microsoft Outlook email client                   |
+|WebKit          |Active    |Safari browser, plus all browsers hosted on the iOS App Store                        |
+|Blink          |Active    |Google Chrome and all other Chromium-based browsers like Opera and Microsoft Edge    |
+|Gecko          |Active    |Firefox browser and Thunderbird email client, plus forks like SeaMonkey and Waterfox |
+|EdgeHTML      |Discontinued      |formerly in the Microsoft Edge browser                                         |
+|Trident      |Discontinued      |Internet Explorer browser and Microsoft Outlook email client                   |
 
 <div align="right">
     <b><a href="#table-of-contents">↥ back to top</a></b>
@@ -1643,67 +1643,67 @@ socket.addEventListener('message', function(event) {
 
 **1. Colors, Styles, and Shadows:**
 
-|  Property    |	Description                                                                 |
+|  Property    |    Description                                                                 |
 |--------------|--------------------------------------------------------------------------------|
-|fillStyle	   | Sets or returns the color, gradient, or pattern used to fill the drawing       |
+|fillStyle       | Sets or returns the color, gradient, or pattern used to fill the drawing       |
 |strokeStyle   | Sets or returns the color, gradient, or pattern used for strokes               |
 |shadowColor   | Sets or returns the color to use for shadows                                   |
-|shadowBlur	   | Sets or returns the blur level for shadows                                     |
+|shadowBlur       | Sets or returns the blur level for shadows                                     |
 |shadowOffsetX | Sets or returns the horizontal distance of the shadow from the shape           |
 |shadowOffsetY | Sets or returns the vertical distance of the shadow from the shape             |
 
 **2. Line Styles:**
 
-|Property	 |  Description                                                   |
+|Property     |  Description                                                   |
 |------------|----------------------------------------------------------------|
-|lineCap	 |Sets or returns the style of the end caps for a line            |
-|lineJoin	 |Sets or returns the type of corner created, when two lines meet |
-|lineWidth	 |Sets or returns the current line width                          |
-|miterLimit	 |Sets or returns the maximum miter length                        |
+|lineCap     |Sets or returns the style of the end caps for a line            |
+|lineJoin     |Sets or returns the type of corner created, when two lines meet |
+|lineWidth     |Sets or returns the current line width                          |
+|miterLimit     |Sets or returns the maximum miter length                        |
 
 **3. Rectangles:**
   
-|Method	        |Description                                          |
+|Method            |Description                                          |
 |---------------|-----------------------------------------------------|
-|rect()	        |Creates a rectangle                                  |
-|fillRect()	    |Draws a "filled" rectangle                           |
-|strokeRect()	|Draws a rectangle (no fill)                          |
-|clearRect()	|Clears the specified pixels within a given rectangle |
+|rect()            |Creates a rectangle                                  |
+|fillRect()        |Draws a "filled" rectangle                           |
+|strokeRect()    |Draws a rectangle (no fill)                          |
+|clearRect()    |Clears the specified pixels within a given rectangle |
 
 **4. Paths:**
 
-| Method	      |   Description                                                                                 |
+| Method          |   Description                                                                                 |
 |-----------------|---------------------------------------------------------------------------------------------- |
-|fill()	          |Fills the current drawing (path)                                                               |
-|stroke()	      |Actually draws the path you have defined                                                       |
-|beginPath()	  |Begins a path, or resets the current path                                                      |
-|moveTo()	      |Moves the path to the specified point in the canvas, without creating a line                   |
-|closePath()	  |Creates a path from the current point back to the starting point                               |
-|lineTo()	      |Adds a new point and creates a line to that point from the last specified point in the canvas  |
-|clip()	          |Clips a region of any shape and size from the original canvas                                  |
-|arc()	          |Creates an arc/curve (used to create circles, or parts of circles)                             |
-|arcTo()	      |Creates an arc/curve between two tangents                                                      |
+|fill()              |Fills the current drawing (path)                                                               |
+|stroke()          |Actually draws the path you have defined                                                       |
+|beginPath()      |Begins a path, or resets the current path                                                      |
+|moveTo()          |Moves the path to the specified point in the canvas, without creating a line                   |
+|closePath()      |Creates a path from the current point back to the starting point                               |
+|lineTo()          |Adds a new point and creates a line to that point from the last specified point in the canvas  |
+|clip()              |Clips a region of any shape and size from the original canvas                                  |
+|arc()              |Creates an arc/curve (used to create circles, or parts of circles)                             |
+|arcTo()          |Creates an arc/curve between two tangents                                                      |
 
 **5. Transformations:**
 
-|Method	        |Description                                                                |
+|Method            |Description                                                                |
 |---------------|-------------------------------------------------------------------------- |
-|scale()	    |Scales the current drawing bigger or smaller                               |
-|rotate()	    |Rotates the current drawing                                                |
-|translate()	|Remaps the (0,0) position on the canvas                                    |
-|transform()	|Replaces the current transformation matrix for the drawing                 |
-|setTransform()	|Resets the current transform to the identity matrix. Then runs transform() |
+|scale()        |Scales the current drawing bigger or smaller                               |
+|rotate()        |Rotates the current drawing                                                |
+|translate()    |Remaps the (0,0) position on the canvas                                    |
+|transform()    |Replaces the current transformation matrix for the drawing                 |
+|setTransform()    |Resets the current transform to the identity matrix. Then runs transform() |
 
 **6. Text:**
 
-|Property	    |Description                                                       |
+|Property        |Description                                                       |
 |---------------|----------------------------------------------------------------- |
-|font	        |Sets or returns the current font properties for text content      |
-|textAlign	    |Sets or returns the current alignment for text content            |
-|textBaseline	|Sets or returns the current text baseline used when drawing text  |
-|fillText()	    |Draws "filled" text on the canvas                                 |
-|strokeText()	|Draws text on the canvas (no fill)                                |
-|measureText()	|Returns an object that contains the width of the specified text   |
+|font            |Sets or returns the current font properties for text content      |
+|textAlign        |Sets or returns the current alignment for text content            |
+|textBaseline    |Sets or returns the current text baseline used when drawing text  |
+|fillText()        |Draws "filled" text on the canvas                                 |
+|strokeText()    |Draws text on the canvas (no fill)                                |
+|measureText()    |Returns an object that contains the width of the specified text   |
 
 **Example 01:** HTML5 Canvas for Text
 
@@ -1838,14 +1838,14 @@ Canvas is a HTML element is used to draw graphics on a web page. It is a  bitmap
 
 **Differences:**
 
-|SVG	                |Canvas                                         |
+|SVG                    |Canvas                                         |
 |-----------------------|-----------------------------------------------|
-|Vector based (composed of shapes)	|Raster based (composed of pixel)
-|Multiple graphical elements, which become the part of the page's DOM tree|	Single element similar to <img> in behavior. Canvas diagram can be saved to PNG or JPG format|
-|Modified through script and CSS	|Modified through script only
-|Good text rendering capabilities	|Poor text rendering capabilities
-|Give better performance with smaller number of objects or larger surface, or both	|Give better performance with larger number of objects or smaller surface, or both|
-|Better scalability. Can be printed with high quality at any resolution. Pixelation does not occur	|Poor scalability. Not suitable for printing on higher resolution. Pixelation may occur |
+|Vector based (composed of shapes)    |Raster based (composed of pixel)
+|Multiple graphical elements, which become the part of the page's DOM tree|    Single element similar to <img> in behavior. Canvas diagram can be saved to PNG or JPG format|
+|Modified through script and CSS    |Modified through script only
+|Good text rendering capabilities    |Poor text rendering capabilities
+|Give better performance with smaller number of objects or larger surface, or both    |Give better performance with larger number of objects or smaller surface, or both|
+|Better scalability. Can be printed with high quality at any resolution. Pixelation does not occur    |Poor scalability. Not suitable for printing on higher resolution. Pixelation may occur |
 
 <div align="right">
     <b><a href="#table-of-contents">↥ back to top</a></b>
@@ -1855,15 +1855,15 @@ Canvas is a HTML element is used to draw graphics on a web page. It is a  bitmap
 
 HTML5 drag-and-drop uses the `DOM event model` and `drag events` inherited from `mouse events`. A typical drag operation begins when a user selects a draggable element, drags the element to a droppable element, and then releases the dragged element.
 
-|Event	        |Description                                                            |
+|Event            |Description                                                            |
 |---------------|-----------------------------------------------------------------------|
-|Drag	        |It fires every time when the mouse is moved while the object is being dragged.|
-|Dragstart	    |It is a very initial stage. It fires when the user starts dragging object.|
-|Dragenter	    |It fires when the user moves his/her mouse cursur over the target element.|
-|Dragover	    |This event is fired when the mouse moves over an element.|
-|Dragleave	    |This event is fired when the mouse leaves an element.|
-|Drop	        |Drop It fires at the end of the drag operation.|
-|Dragend	    |It fires when user releases the mouse button to complete the drag operation.|
+|Drag            |It fires every time when the mouse is moved while the object is being dragged.|
+|Dragstart        |It is a very initial stage. It fires when the user starts dragging object.|
+|Dragenter        |It fires when the user moves his/her mouse cursur over the target element.|
+|Dragover        |This event is fired when the mouse moves over an element.|
+|Dragleave        |This event is fired when the mouse leaves an element.|
+|Drop            |Drop It fires at the end of the drag operation.|
+|Dragend        |It fires when user releases the mouse button to complete the drag operation.|
 
 Example
 
@@ -1931,80 +1931,80 @@ Example
 
 The following elements are not available in HTML5 anymore and their function is better handled by CSS.
 
-|Sl.No|Tags (Elements)  |	Description        |
+|Sl.No|Tags (Elements)  |    Description        |
 |-----|-----------------|----------------------|
-| 01. |`<acronym>`	    |Defines an acronym|
-| 02. |`<applet>`	    |Defines an applet|
-| 03. |`<basefont>`	    |Defines an base font for the page.|
-| 04. |`<big>`	        |Defines big text|
-| 05. |`<center>`	    |Defines centered text|
-| 06. |`<dir>`	        |Defines a directory list|
-| 07. |`<font>`	        |Defines text font, size, and color|
-| 08. |`<frame>`	    |Defines a frame|
-| 08. |`<frameset>`	    |Defines a set of frames|
-| 10. |`<isindex>`	    |Defines a single-line input field|
-| 11. |`<noframes>`	    |Defines a noframe section|
-| 12. |`<s>`	        |Defines strikethrough text|
-| 13. |`<strike>`	    |Defines strikethrough text|
-| 14. |`<tt>`	        |Defines teletype text|
-| 15. |`<u>`	        |Defines underlined text|
+| 01. |`<acronym>`        |Defines an acronym|
+| 02. |`<applet>`        |Defines an applet|
+| 03. |`<basefont>`        |Defines an base font for the page.|
+| 04. |`<big>`            |Defines big text|
+| 05. |`<center>`        |Defines centered text|
+| 06. |`<dir>`            |Defines a directory list|
+| 07. |`<font>`            |Defines text font, size, and color|
+| 08. |`<frame>`        |Defines a frame|
+| 08. |`<frameset>`        |Defines a set of frames|
+| 10. |`<isindex>`        |Defines a single-line input field|
+| 11. |`<noframes>`        |Defines a noframe section|
+| 12. |`<s>`            |Defines strikethrough text|
+| 13. |`<strike>`        |Defines strikethrough text|
+| 14. |`<tt>`            |Defines teletype text|
+| 15. |`<u>`            |Defines underlined text|
 
 **2. Deprecated Attributes:**  
 
-|Removed Attributes	  |From the Elements     |
+|Removed Attributes      |From the Elements     |
 |---------------------|----------------------|
-|rev	              |link, a|
-|charset	          |link and a|
-|shape	              |a|
-|coords	              |a|
-|longdesc	          |img and iframe.|
-|target	              |link|
-|nohref	              |area|
-|profile	          |head|
-|version	          |html|
-|name	              |img|
-|scheme	              |meta|
-|archive	          |object|
-|classid	          |object|
-|codebase	          |object|
-|codetype	          |object|
-|declare	          |object|
-|standby	          |object|
-|valuetype	          |param|
-|type	              |param|
-|axis	              |td and t|
-|abbr	              |td and t|
-|scope	              |td|
-|align	              |caption, iframe, img, input, object, legend, table, hr, div, h1, h2, h3, h4, h5, h6, p, col, colgroup, tbody, td, tfoot, th, thead and tr.|
-|alink	              |body|
-|link	              |body|
-|vlink	              |body|
-|text	              |body|
-|background	          |body|
-|bgcolor	          |table, tr, td, th and body.|
-|border	              |table and object.|
-|cellpadding	      |table|
-|cellspacing	      |table|
-|char	              |col, colgroup, tbody, td, tfoot, th, thead and tr.|
-|charoff 	          |col, colgroup, tbody, td, tfoot, th, thead and tr.|
-|clear	              |br|
-|compact	          |dl, menu, ol and ul.|
-|frame	              |table|
-|compact	          |dl, menu, ol and ul.|
-|frame	              |table|
-|frameborder	      |iframe|
-|hspace	              |img and object.|
-|vspace	              |img and object.|
-|marginheight	      |iframe|
-|marginwidth	      |iframe|
-|noshade	          |hr|
-|nowrap	              |td and th|
-|rules	              |table|
-|scrolling	          |iframe|
-|size	              |hr|
-|type	              |li, ol and ul.|
-|valign	              |col, colgroup, tbody, td, tfoot, th, thead and tr|
-|width	              |hr, table, td, th, col, colgroup and pre.|
+|rev                  |link, a|
+|charset              |link and a|
+|shape                  |a|
+|coords                  |a|
+|longdesc              |img and iframe.|
+|target                  |link|
+|nohref                  |area|
+|profile              |head|
+|version              |html|
+|name                  |img|
+|scheme                  |meta|
+|archive              |object|
+|classid              |object|
+|codebase              |object|
+|codetype              |object|
+|declare              |object|
+|standby              |object|
+|valuetype              |param|
+|type                  |param|
+|axis                  |td and t|
+|abbr                  |td and t|
+|scope                  |td|
+|align                  |caption, iframe, img, input, object, legend, table, hr, div, h1, h2, h3, h4, h5, h6, p, col, colgroup, tbody, td, tfoot, th, thead and tr.|
+|alink                  |body|
+|link                  |body|
+|vlink                  |body|
+|text                  |body|
+|background              |body|
+|bgcolor              |table, tr, td, th and body.|
+|border                  |table and object.|
+|cellpadding          |table|
+|cellspacing          |table|
+|char                  |col, colgroup, tbody, td, tfoot, th, thead and tr.|
+|charoff               |col, colgroup, tbody, td, tfoot, th, thead and tr.|
+|clear                  |br|
+|compact              |dl, menu, ol and ul.|
+|frame                  |table|
+|compact              |dl, menu, ol and ul.|
+|frame                  |table|
+|frameborder          |iframe|
+|hspace                  |img and object.|
+|vspace                  |img and object.|
+|marginheight          |iframe|
+|marginwidth          |iframe|
+|noshade              |hr|
+|nowrap                  |td and th|
+|rules                  |table|
+|scrolling              |iframe|
+|size                  |hr|
+|type                  |li, ol and ul.|
+|valign                  |col, colgroup, tbody, td, tfoot, th, thead and tr|
+|width                  |hr, table, td, th, col, colgroup and pre.|
 
 <div align="right">
     <b><a href="#table-of-contents">↥ back to top</a></b>
@@ -2763,24 +2763,24 @@ While there are 35 aria properties and states the W3C defines and which you can 
     <style>
       #green{
         background-color: green;
-	width: 100px;
-	height: 100px;
-	border-radius: 50%;
-	border: 2px solid #333;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #333;
       }
       #yellow{
         background-color: yellow;
-	width: 100px;
-	height: 100px;
-	border-radius: 50%;
-	border: 2px solid #333;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #333;
       }
       #red{
         background-color: red;
-	width: 100px;
-	height: 100px;
-	border-radius: 50%;
-	border: 2px solid #333;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #333;
       }
     </style>
   </head>
@@ -2794,25 +2794,25 @@ While there are 35 aria properties and states the W3C defines and which you can 
         
         const red = document.getElementById("red");
         const yellow = document.getElementById("yellow");
-	const green = document.getElementById("green");
+    const green = document.getElementById("green");
       
         green.style.opacity = 1;
       
-	// Red Signal
+    // Red Signal
         setTimeout(function () {
           green.style.opacity = 0.3;
           red.style.opacity = 1;
           yellow.style.opacity = 0.3;
         }, 7000);
-		
+        
         // Yellow Signal
         setTimeout(function () {
           green.style.opacity = 1;
           red.style.opacity = 0.3;
           yellow.style.opacity = 0.3;
         }, 5000);
-		
-	// Green Signal
+        
+    // Green Signal
         setTimeout(function () {
           green.style.opacity = 0.3;
           red.style.opacity = 0.3;
@@ -2833,3 +2833,49 @@ While there are 35 aria properties and states the W3C defines and which you can 
 <div align="right">
     <b><a href="#table-of-contents">↥ back to top</a></b>
 </div>
+
+<h2 id="3-html-events">HTML Events</h2>
+<h3>Types of Events</h3>
+<h4>There are muliple types; Window, Form, Keyboard, Mouse, Drag, Clipboard, Media, &amp; Miscellaneous.</h4>
+
+<h5>Global Event Attributes</h5>
+HTML has the ability to let events trigger actions in a browser, like starting a JavaScript when a user clicks on an element.
+
+Below are the global event attributes that can be added to HTML elements to define event actions.
+
+<h5>Window Event Attributes</h5>
+Events triggered for the window object (applies to the &lt;body&gt; tag):
+
+| Attribute      | Value    | Description |
+|----------------| +-------+|--------------------------------------------------------------------------|
+| onafterprint   | script   | Script to be run after the document is printed |
+| onbeforeprint     | script| Script to be run before the document is printed |
+| onbeforeunload | script   | Script to be run when the document is about to be unloaded |
+| onerror     | script        | Script to be run when an error occurs |
+| onhashchange     |script        | Script to be run when there has been changes to the anchor part of the a URL |
+| onload         |script        | Fires after the page is finished loading |
+| onmessage        | script    |   Script to be run when the message is triggered |
+| onoffline        | script   |   Script to be run when the browser starts to work offline |
+| ononline        | script    Script to be run when the browser starts to work online |
+| onpagehide        | script    |    Script to be run when a user navigates away from a page |
+| onpageshow        | script |  Script to be run when a user navigates to a page |
+| onpopstate        | script |    Script to be run when the window's history changes |
+| onresize        | script |    Fires when the browser window is resized |
+| onstorage        | script |    Script to be run when a Web Storage area is updated |
+| onunload        | script |    Fires once a page has unloaded (or the browser window has been closed) |
+
+<h5>Form Events</h5>
+Events triggered by actions inside a HTML form (applies to almost all HTML elements, but is most used in form elements):
+
+| Attribute      | Value    | Description |
+|----------------| +-------+|--------------------------------------------------------------------------|
+onblur	script	Fires the moment that the element loses focus
+onchange	script	Fires the moment when the value of the element is changed
+oncontextmenu	script	Script to be run when a context menu is triggered
+onfocus	script	Fires the moment when the element gets focus
+oninput	script	Script to be run when an element gets user input
+oninvalid	script	Script to be run when an element is invalid
+onreset	script	Fires when the Reset button in a form is clicked
+onsearch	script	Fires when the user writes something in a search field (for <input="search">)
+onselect	script	Fires after some text has been selected in an element
+onsubmit	script	Fires when a form is submitted
