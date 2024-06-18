@@ -229,7 +229,7 @@ Indicates how much of a task has been completed (often marked as a percentage). 
     <b><a href="#table-of-contents">↥ back to top</a></b>
 </div>
 
-## Q. How many new form elements are introduced in html5?
+<h3 id="new-form-elements">List New form elements introduced in html5</h3>
 
 |Sl.No| Element     | Description   |
 |-----|-------------|---------------------------|
@@ -281,7 +281,6 @@ Indicates how much of a task has been completed (often marked as a percentage). 
 
 <!-- Note: requires a protocol like http://, ftp:// etc in the beginning. -->
 
-
 <input type="week" value="2020-W24">
 ```
 
@@ -289,12 +288,14 @@ Indicates how much of a task has been completed (often marked as a percentage). 
     <b><a href="#table-of-contents">↥ back to top</a></b>
 </div>
 
-## Q. Create a HTML form with below constraints?
+<h4>Example to create a HTML form with below constraints</h4>
 
-   * Accept User Name, Email, Country and Subject
-   * Validate the fields
-   * Store data into local Storage
-   * Fetch user data and display on right side of the page
+<ul>
+  <li>Accept User Name, Email, Country and Subject,</li>
+  <li>Validate the fields,</li>
+  <li>Store data into local Storage,</li>
+  <li>Fetch user data and display on right side of the page.</li>
+</ul>
 
 ```html
 <!DOCTYPE html>
@@ -403,12 +404,14 @@ Indicates how much of a task has been completed (often marked as a percentage). 
     <b><a href="#table-of-contents">↥ back to top</a></b>
 </div>
 
-## Q. What is difference between `span` tag and `div` tag?
+<h3 id="diff-span-div">What is difference between `span` tag and `div` tag?</h3>
 
 The primary difference between div and span tag is their default behavior. By default, a `<div>` is a **block-level-element** and a `<span>` is an **inline element**.
 
-* `<div>` is a block level element which means it will render it on it\'s own line with a width of a 100% of the parent element.
-* `<span>` is an inline element which means it will render on the same line as the previous element, if it is also an inline element, and it's width will be determined by it\'s content.
+<ul>
+  <li>`&lt;div&gt;` is a block level element which means it will render it on it&apos;s own line with a width of a 100% of the parent element.</li>
+  <li>`&lt;span&gt;` is an inline element which means it will render on the same line as the previous element, if it is also an inline element, and it's width will be determined by it\'s content.</li>
+</ul>
 
 ```html
 <div>Demo Text, with <span>some other</span> text.</div>
@@ -2847,7 +2850,7 @@ Below are the global event attributes that can be added to HTML elements to defi
 Events triggered for the window object (applies to the &lt;body&gt; tag):
 
 | Attribute      | Value    | Description |
-|----------------| +-------+|--------------------------------------------------------------------------|
+|----------------|----------|--------------------------------------------------------------------------|
 | onafterprint   | script   | Script to be run after the document is printed |
 | onbeforeprint     | script| Script to be run before the document is printed |
 | onbeforeunload | script   | Script to be run when the document is about to be unloaded |
@@ -2867,15 +2870,15 @@ Events triggered for the window object (applies to the &lt;body&gt; tag):
 <h5>Form Events</h5>
 Events triggered by actions inside a HTML form (applies to almost all HTML elements, but is most used in form elements):
 
-| Attribute      | Value    | Description |
-|----------------| +-------+|--------------------------------------------------------------------------|
-onblur	script	Fires the moment that the element loses focus
-onchange	script	Fires the moment when the value of the element is changed
-oncontextmenu	script	Script to be run when a context menu is triggered
-onfocus	script	Fires the moment when the element gets focus
-oninput	script	Script to be run when an element gets user input
-oninvalid	script	Script to be run when an element is invalid
-onreset	script	Fires when the Reset button in a form is clicked
-onsearch	script	Fires when the user writes something in a search field (for &lt;input="search"&gt;)
-onselect	script	Fires after some text has been selected in an element
-onsubmit	script	Fires when a form is submitted
+|Attribute       |Value    |Description |
+|----------------|-------|--------------------------------------------------------------------------|
+onblur              script    Fires the moment that the element loses focus
+onchange    script    Fires the moment when the value of the element is changed
+oncontextmenu    script    Script to be run when a context menu is triggered
+onfocus    script    Fires the moment when the element gets focus
+oninput    script    Script to be run when an element gets user input
+oninvalid    script    Script to be run when an element is invalid
+onreset    script    Fires when the Reset button in a form is clicked
+onsearch    script    Fires when the user writes something in a search field (for &lt;input="search"&gt;)
+onselect    script    Fires after some text has been selected in an element
+onsubmit    script    Fires when a form is submitted
