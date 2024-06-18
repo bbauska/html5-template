@@ -2876,6 +2876,6 @@ onfocus	script	Fires the moment when the element gets focus
 oninput	script	Script to be run when an element gets user input
 oninvalid	script	Script to be run when an element is invalid
 onreset	script	Fires when the Reset button in a form is clicked
-onsearch	script	Fires when the user writes something in a search field (for <input="search">)
+onsearch	script	Fires when the user writes something in a search field (for &lt;input="search"&gt;)
 onselect	script	Fires after some text has been selected in an element
 onsubmit	script	Fires when a form is submitted
