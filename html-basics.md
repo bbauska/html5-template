@@ -22,16 +22,16 @@
 * [HTML Forms](#4-html-forms)
 * [HTML Tables](#5-html-tables)
 * [HTML Lists](#6-html-lists)
-* [HTML Iframe](#6-html-iframe)
-* [HTML URL](#6-html-url)
-* [HTML SVG](#7-html-svg)
-* [HTML Canvas](#8-html-canvas)
-* [HTML Storage](#9-html-storage)
-* [HTML APIs](#10-html-apis)
-* [HTML Drag and Drop](#11-html-drag-and-drop)
-* [HTML Web Worker](#12-html-web-worker)
-* [HTML Accessibility](#13-html-accessibility)
-* [Miscellaneous](#14-miscellaneous)
+* [HTML Iframe](#7-html-iframe)
+* [HTML URL](#8-html-url)
+* [HTML SVG](#9-html-svg)
+* [HTML Canvas](#10-html-canvas)
+* [HTML Storage](#11-html-storage)
+* [HTML APIs](#12-html-apis)
+* [HTML Drag and Drop](#13-html-drag-and-drop)
+* [HTML Web Worker](#14-html-web-worker)
+* [HTML Accessibility](#15-html-accessibility)
+* [Miscellaneous](#16-miscellaneous)
 
 <br/>
 
@@ -2085,7 +2085,21 @@ Since the APIs are usually co-located with the server, the content is loaded sup
     <b><a href="#table-of-contents">↥ back to top</a></b>
 </div>
 
-## Q. What is an iframe and how it works?
+<h2 id="7-html-iframes">HTML Iframes</h2>
+
+HTML iframes offer a powerful way to embed external content, such as videos, maps, or other webpages, directly into your own webpage. This article provides an in-depth exploration of HTML iframes, their syntax, and how they can be used to enhance your web development projects.
+
+<h3>What are HTML Iframes?</h3>
+An iframe is an HTML document embedded inside another HTML document. The <iframe> tag specifies the URL of the embedded content, allowing for seamless integration of external resources. This section will guide you through the syntax and attributes of the <iframe> tag, providing a solid foundation for your iframe usage.
+
+Syntax:
+```html
+<iframe src="URL" title="description"></iframe>
+```
+The src attribute specifies the URL of the document you want to embed.
+Iframes can include videos, maps, or entire web pages from other sources.
+
+<h3>Q. What is an iframe and how does it work?</h3>
 
 The `<iframe>` HTML element represents a nested browsing context, embedding another HTML page into the current one. Each embedded browsing context has its own **session history** and **document**. The browsing context that embeds the others is called the parent browsing context. The topmost browsing context — the one with no parent — is usually the browser window, represented by the **Window** object.
 
@@ -2131,7 +2145,7 @@ The `<iframe>` HTML element represents a nested browsing context, embedding anot
 |src             |the address of the resource included in the iframe|
 |width           |sets the width of the iframe (if not specified, the default width is 300 pixels)|
 
-*Note: Because each browsing context is a complete document environment, every `<iframe>` in a page requires increased memory and other computing resources.*
+*Note: Because each browsing context is a complete document environment, every `&lt;iframe&gt;` in a page requires increased memory and other computing resources.*
 
 <div align="right">
     <b><a href="#table-of-contents">↥ back to top</a></b>
