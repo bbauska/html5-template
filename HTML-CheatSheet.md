@@ -7,16 +7,15 @@ There are hundreds of semantic tags available to help describe the meaning of yo
 
 | Tag          | Description |
 |--------------|-----------------------------------------------------------------------------------|
-| &lt;header&gt;     | The header of a content section or the web page. The web page header often        |
-|              | contains the website branding or logo.                                            |
+| &lt;header&gt;     | The header of a content section or the web page. The web page header often contains the |
+|              | website branding or logo.                                            |
 | &lt;nav&gt;        | The navigation links of a section or the web page.                                |
 | &lt;footer&gt;     | The footer of a content section or the web page. On a web page, it often contains |
 |              | secondary links, the copyright notice, privacy policy and cookie policy links.    |
 | &lt;main&gt;       | Specifies the main content of a section or the web page.                          |
 | &lt;aside&gt;      | A secondary set of content that is not required to understand the main content.   |
 | &lt;article&gt;    | An independent, self-contained block of content such as a blog post or product.   |
-| &lt;section&gt;    | A standalone section of the document that is often used within the body and       |
-|              | article elements.                                                                 |
+| &lt;section&gt;    | A standalone section of the document that is often used within the body and  article elements. |
 | &lt;details&gt;    | A collapsed section of content that can be expanded if the user wishes to view it.|
 | &lt;summary&gt;    | Specifies the summary or caption of a &lt;details&gt; element.                          |
 | &lt;h1&gt;&lt;h2&gt;&lt;h3&gt; | Headings on the web page. &lt;h1&gt; indicates the most important heading whereas &lt;h6&gt;  |
