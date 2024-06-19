@@ -9,6 +9,7 @@
 * *[JavaScript Basics](https://github.com/learning-zone/javascript-basics)*
 
 <br/>
+
 ## [Table of Contents](#toc)
 
 <h2 name="#toc">Table of Contents</h2>
