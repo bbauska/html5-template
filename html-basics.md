@@ -12,7 +12,7 @@
 
 <!-- ## [Table of Contents](#toc) -->
 
-<h2><a href="#toc">Table of Contents</h2>
+<h2><a id="toc">Table of Contents</h2>
 
 <ol>
   <li><a href="#1-introduction">Introduction</a></li>
@@ -61,7 +61,7 @@ The Extensible Hypertext Markup Language, or XHTML, has two important notes for 
 * **Styling**: letting authors write more sophisticated themes.
 
 <div align="right">
-    <b><a href="toc">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. What are the semantic tags available in html5?
