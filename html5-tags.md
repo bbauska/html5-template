@@ -1,4 +1,4 @@
-<h2 id="html5-tags">HTML5 Tags</h2>
+<h2 id="html5-tags">HTML5 Tags grouped by Category</h2>
 
 <p>The following section contains a complete list of standard tags belonging to the 
 latest HTML5 and XHTML 1.1 specifications. All the tags are grouped into categories.</p>
