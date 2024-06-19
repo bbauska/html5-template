@@ -2247,6 +2247,10 @@ Headings (H1-H6) are used to split your page into sections or chapters. Each hea
 <h1>Your heading goes here</h1>
 ```
 
+<div align="right">
+    <b><a href="#toc">↥ back to top</a></b>
+</div>
+
 **4. Image alt attribute:**
 
 The `alt` text attribute is a part of an image tag, and it provides a description for an image. Alt text plays a major role in image optimization. It makes your images accessible both to search engines (by telling them what a particular image means) and to people (by displaying an alternative text in case a particular image cannot be loaded or by helping screen readers convey images). In HTML it may look like this:
