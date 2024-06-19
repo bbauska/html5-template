@@ -3290,12 +3290,14 @@ between different types of data. Tables are also used to create databases.</p>
 <h4>Output</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 05-01. simple html table ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="./images/05-image001.png"
   title="Simple HTML table"
   alt="Simple HTML table."
   style="width:40%" >
-  
+</p>  
+
 <h3>Tags used in HTML Tables</h3>
 
 | HTML Tags    | Descriptions |
@@ -3384,11 +3386,13 @@ The Headers are generally use to provide the Heading. The Table Headers can also
 <h5>Output:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 05-02. html table ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="./images/05-image002.png"
   title="HTML table"
   alt="HTML table."
   style="width:40%" >
+</p>
 
 <h4>Adding a border to an HTML Table</h4>
 <p>A border is set using the CSS border property. If you do not specify a border 
@@ -3450,11 +3454,13 @@ table, th, td {
 <h5>Output:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 05-03. table with border ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="./images/05-image003.png"
   title="Table with border"
   alt="Table with border."
   style="width:40%" >
+</p>
 
 <h4>Adding Collapsed Borders in an HTML Table</h4>
 <p>For borders to collapse into one border, add the CSS border-collapse property.</p>
@@ -3518,11 +3524,13 @@ table, th, td {
 <h5>Output:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 05-04. table with collapsed borders ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="./images/05-image004.png"
   title="Table with collapsed borders"
   alt="Table with collapsed borders."
   style="width:40%" >
+</p>
 
 <h4>Adding Cell Padding in an HTML Table</h4>
 <p>Cell padding specifies the space between the cell content and its borders. If 
@@ -3590,11 +3598,13 @@ th, td {
 <h5>Output:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 05-05. adding table cell padding ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="./images/05-image005.png"
   title="Adding table cell padding"
   alt="Adding table cell padding."
   style="width:40%" >
+</p>
 
 <h4>Adding Left Align Headings in an HTML Table</h4>
 <p>By default, the table headings are bold and centered. To left-align the table 
@@ -3666,11 +3676,13 @@ th {
 <h5>Output:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 05-06. text-align property ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="./images/05-image006.png"
   title="text-align property"
   alt="text-align property."
   style="width:40%" >
+</p>
 
 <h4>Adding Border Spacing in an HTML Table</h4>
 
@@ -3737,11 +3749,13 @@ table {
 <h5>Output:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 05-07. border spacing property ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="./images/05-image007.png"
   title="Border spacing property"
   alt="Border spacing property."
   style="width:40%" >
+</p>
 
 <h4>Adding Cells that Span Many Columns in HTML Tables</h4>
 <p>To make a cell span more than one column, we must use the colspan attribute.</p>
@@ -3791,11 +3805,13 @@ table {
 <h5>Output:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 05-08. use of colspan attribute ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="./images/05-image008.png"
   title="Use of colspan attribute"
   alt="Use of colspan attribute."
   style="width:40%" >
+</p>
 
 <h4>Adding Cells that span many rows in HTML Tables</h4>
 <p>To make a cell span more than one row, we must use the rowspan attribute.</p>
@@ -3847,11 +3863,13 @@ table {
 <h5>Output:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 05-09. use of rowspan attribute ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="./images/05-image009.png"
   title="Use of rowspan attribute"
   alt="Use of rowspan attribute."
   style="width:40%" >
+</p>
 
 <h4>Adding a Caption in an HTML Table</h4>
 
@@ -3923,11 +3941,13 @@ table {
 <h5>Output:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 05-10. adding caption using the tag ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="./images/05-image010.png"
   title="Adding Caption using the Tag"
   alt="Adding Caption using the Tag."
   style="width:40%" >
+</p>
 
 <h4>Adding a Background Colour to the Table</h4>
 <p>A color can be added as a background in an HTML table using the "background-
@@ -4026,11 +4046,13 @@ table#t01 {
 <h5>Output:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 05-11. adding background color ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="./images/05-image011.png"
   title="Adding Background Color"
   alt="Adding Background Color."
   style="width:40%" >
+</p>
 
 <h4>Creating Nested Tables</h4>
 <p>Nesting tables simply means making a Table inside another Table. Nesting tables 
@@ -4068,11 +4090,13 @@ potential of introducing errors.</p>
 <h5>Output:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 05-12. nested html table ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
 <img class="displayed"
   src="./images/05-image012.png"
   title="Nested HTML table"
   alt="Nested HTML table."
   style="width:40%" >
+</p>
 
 <!-- end of html tables -->
 
