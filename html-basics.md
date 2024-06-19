@@ -10,10 +10,10 @@
 
 <br/>
 
-## Table of Contents
+<h2 id="#toc">Table of Contents</h2>
 
-* [Introduction](#1-introduction)
-* [HTML Tags](#2-html-tags)
+* [1. Introduction](#1-introduction)
+* [2. HTML Tags](#2-html-tags)
 * [HTML Events](#3-html-events)
 * [HTML Forms](#4-html-forms)
 * [HTML Tables](#5-html-tables)
@@ -2219,6 +2219,7 @@ The `<mark>` HTML element represents text which is marked or highlighted for ref
 HTML tags are used to influence the way our pages appear in search results. With the help of certain tags, we can turn regular search snippets into rich snippets, and maybe even into featured snippets. And, as our search snippets get more advanced, they are able to secure better **Search Engine Results Pages (SERP)** positions and attract more traffic.
 
 Here are all the HTML tags that still matter:
+
 <h2 id="2-html-tags">2. HTML Tags</h2>
 
 **1. Title tag:**
