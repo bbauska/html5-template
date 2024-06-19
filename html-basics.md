@@ -12,22 +12,27 @@
 
 <h2 id="#toc">Table of Contents</h2>
 
-* [1. Introduction](#1-introduction)
-* [2. HTML Tags](#2-html-tags)
-* [HTML Events](#3-html-events)
-* [HTML Forms](#4-html-forms)
-* [HTML Tables](#5-html-tables)
-* [HTML Lists](#6-html-lists)
-* [HTML Iframe](#7-html-iframe)
-* [HTML URL](#8-html-url)
-* [HTML SVG](#9-html-svg)
-* [HTML Canvas](#10-html-canvas)
-* [HTML Storage](#11-html-storage)
-* [HTML APIs](#12-html-apis)
-* [HTML Drag and Drop](#13-html-drag-and-drop)
-* [HTML Web Worker](#14-html-web-worker)
-* [HTML Accessibility](#15-html-accessibility)
-* [Miscellaneous](#16-miscellaneous)
+<ol>
+  <li><a href="#1-introduction">Introduction</a></li>
+  <li><a href="#2-html-tags">HTML Tags</a></li>
+</ol>
+
+* [01. Introduction](#1-introduction)
+* [02. HTML Tags](#2-html-tags)
+* [03. HTML Events](#3-html-events)
+* [04. HTML Forms](#4-html-forms)
+* [05. HTML Tables](#5-html-tables)
+* [06. HTML Lists](#6-html-lists)
+* [07. HTML Iframe](#7-html-iframe)
+* [08. HTML URL](#8-html-url)
+* [09. HTML SVG](#9-html-svg)
+* [10. HTML Canvas](#10-html-canvas)
+* [11. HTML Storage](#11-html-storage)
+* [12. HTML APIs](#12-html-apis)
+* [13. HTML Drag and Drop](#13-html-drag-and-drop)
+* [14. HTML Web Worker](#14-html-web-worker)
+* [15. HTML Accessibility](#15-html-accessibility)
+* [16. Miscellaneous](#16-miscellaneous)
 
 <br/>
 
