@@ -2979,3 +2979,257 @@ elements, but is most common in media elements, like &lt;audio&gt;, &lt;embed&gt
 |Attribute       |Value    |Description |
 |----------------|--------|--------------------------------------------------------------------------|
 | ontoggle | script | Fires when the user opens or closes the &lt;details&gt; element |
+
+<h2 id="4-html-forms">Forms Elements</h2>
+
+<p>The HTML &lt;form&gt; comprises several elements, each serving a unique purpose. For 
+instance, the &lt;label&gt; element is used to define labels for other &lt;form&gt; elements. 
+The &lt;input&gt; element, on the other hand, is versatile and can be used to capture 
+various types of input data such as text, password, email, and more, simply by 
+altering its type attribute. Now, let’s all the list of HTML Form Elements one 
+by one:</p>
+
+Elements     | Descriptions |
+|------------|------------------------------------------------------------------------------------|
+| &lt;label&gt;    | It defines labels for &lt;form&gt; elements. |
+| &lt;input&gt;    | It is used to get input data from the form in various types such as text, password, |
+|            | email, etc by changing its type. |
+| &lt;button&gt;   | It defines a clickable button to control other elements or execute a functionality. |
+| &lt;select&gt;   | It is used to create a drop-down list. |
+| &lt;textarea&gt; | It is used to get input long text content. |
+| &lt;fieldset&gt; | It is used to draw a box around other form elements and group the related data. |
+| &lt;legend&gt;	 | It defines a caption for fieldset elements. |
+| &lt;datalist&gt; | It is used to specify pre-defined list options for input controls. |
+| &lt;output&gt;	 | It displays the output of performed calculations. |
+| &lt;option&gt;	 | It is used to define options in a drop-down list. |
+| &lt;optgroup&gt; | It is used to define group-related options in a drop-down list. |
+
+<h3>Commonly Used Input Types in HTML Forms</h3>
+
+<p>In HTML forms, various input types are used to collect different types of 
+data from users. Here are some commonly used input types:</p>
+
+&lt;input type="text"&gt;
+
+| Input Type | Description |
+|------------|------------------------------------------------------------------------------------|
+| &lt;input type="text"&gt; | Defines a one-line text input field |
+| &lt;input type="password"&gt;   | Defines a password field |
+| &lt;input type="submit"&gt;     | Defines a submit button |
+| &lt;input type="reset"&gt;      | Defines a reset button |
+| &lt;input type="radio"&gt;      | Defines a radio button |
+| &lt;input type="email"&gt;      | Validates that the input is a valid email address. |
+| &lt;input type="number"&gt;     | Allows the user to enter a number. You can specify min, max, and step |
+|                                 | attributes for range. |
+| &lt;input type="checkbox"&gt;   | Used for checkboxes where the user can select multiple options. |
+| &lt;input type="date"&gt;       | Allows the user to select a date from a calendar. |
+| &lt;input type="time"&gt;       | Allows the user to select a time. |
+| &lt;input type="file"&gt;       | Allows the user to select a file to upload. |
+
+<h3>HTML Forms Example</h3>
+
+<h4>1. Basic HTML Forms Example:</h4>
+
+<p><b>Example:</b> This HTML forms collects the user personal information such 
+as username and password with the button to submit the form.</p>
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Html Forms</title>
+</head>
+<body>
+  <h2>HTML Forms</h2>
+  <form>
+    <label for="username">Username:</label><br>
+    <input type="text" id="username" name="username"><br><br>
+    
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password"><br><br>
+    
+    <input type="submit" value="Submit">
+  </form>
+</body> 
+</html>
+```
+
+<h5>Output:</h5>
+
+<image2>
+
+<h4>2. HTML Forms Example:</h4>
+
+<p><b>Example:</b> This HTML form collects user personal information including 
+name, email, password, gender, date of birth, and address. It features proper 
+styling for input fields and submission button.</p>
+
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Form</title>
+        <style>
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0;
+                background-color: #f0f0f0;
+            }
+
+            form {
+                width: 400px;
+                background-color: #fff;
+                padding: 20px;
+                border-radius: 8px;
+                box-shadow: 0 0 10px
+                    rgba(0, 0, 0, 0.1);
+            }
+
+            fieldset {
+                border: 1px solid black;
+                padding: 10px;
+                margin: 0;
+            }
+
+            legend {
+                font-weight: bold;
+                margin-bottom: 10px;
+            }
+
+            label {
+                display: block;
+                margin-bottom: 5px;
+            }
+
+            input[type="text"],
+            input[type="email"],
+            input[type="password"],
+            textarea,
+            input[type="date"] {
+                width: calc(100% - 20px);
+                padding: 8px;
+                margin-bottom: 10px;
+                box-sizing: border-box;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+            }
+
+            input[type="radio"] {
+                margin-left: 20px;
+            }
+
+            input[type="submit"] {
+                padding: 10px 20px;
+
+                border-radius: 5px;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>
+                    User personal information
+                </legend>
+                <label
+                    >Enter your full name</label
+                >
+                <input type="text" name="name" />
+                <label>Enter your email</label>
+                <input
+                    type="email"
+                    name="email"
+                />
+                <label>Enter your password</label>
+                <input
+                    type="password"
+                    name="pass"
+                />
+                <label
+                    >Confirm your password</label
+                >
+                <input
+                    type="password"
+                    name="confirmPass"
+                />
+                <label>Enter your gender</label>
+                <input
+                    type="radio"
+                    name="gender"
+                    value="male"
+                />Male
+                <input
+                    type="radio"
+                    name="gender"
+                    value="female"
+                />Female
+                <input
+                    type="radio"
+                    name="gender"
+                    value="others"
+                />Others
+                <label
+                    >Enter your Date of
+                    Birth</label
+                >
+                <input type="date" name="dob" />
+                <label>Enter your Address:</label>
+                <textarea
+                    name="address"
+                ></textarea>
+                <input
+                    type="submit"
+                    value="submit"
+                />
+            </fieldset>
+        </form>
+    </body>
+</html>
+```
+
+<form 3>
+
+<p>Here are some of the key attributes that can be used with the &lt;form&gt; element:</p>
+
+<ol>
+  <li>action: This attribute specifies where to send the form-data when a form 
+    is submitted. The value of this attribute is typically a URL.</li>
+  <li>method: This attribute defines the HTTP method used to send the form-data. 
+    The values can be “get” or “post”.</li>
+  <li>target: This attribute specifies where to display the response received after 
+    submitting the form. The values can be “_blank”, “_self”, “_parent”, “_top”, or 
+	the name of an iframe.</li>
+  <li>enctype: This attribute is used when method=“post”. It specifies how the form-
+    data should be encoded when submitting it to the server. The values can be 
+	“application/x-www-form-urlencoded”, “multipart/form-data”, or “text/plain”.</p>
+  <li>autocomplete: This attribute specifies whether a form should have autocomplete 
+    on or off. When autocomplete is on, the browser automatically completes values 
+	based on values that the user has entered before.</li>
+  <li>novalidate: This Boolean attribute specifies that the form-data should not 
+    be validated on submission.</li>
+</ol>
+
+<h4>Features</h4>
+
+<ul>
+  <li>Facilitates user input collection through various elements.</li>
+  <li>Utilizes <form> tags to structure input elements.</li>
+  <li>Defines actions for data submission upon form completion.</li>
+  <li>Supports client-side validation for enhanced user experience.</li>
+</ul>
+
+<h4>Conclusion</h4>
+
+<p>In conclusion, HTML forms are a powerful tool for collecting user input on 
+the web. They provide a wide range of interactive controls, from text fields 
+to checkboxes, radio buttons, and more. Understanding the syntax and attributes 
+of the <form> element is crucial for creating effective and user-friendly forms.</p>
+
+<p>This article has provided a comprehensive overview of HTML forms, including their 
+syntax, key attributes, and various form elements. By mastering HTML forms, you 
+can create more engaging, user-friendly, and accessible web applications.</p>
+
