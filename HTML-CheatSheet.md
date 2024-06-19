@@ -3,7 +3,8 @@
 There are hundreds of semantic tags available to help describe the meaning of your HTML documents. Below is a cheat sheet with some of the most common ones you’ll use in your development career. 
 
 <h2>Sectioning tags</h2>
-Use the following tags to organize your HTML document into structured sections. 
+<p>Use the following tags to organize your HTML document into structured sections.</p>
+
 | Tag      | Description |
 |--------------|-----------------------------------------------------------------------------------|
 | &lt;header&gt;     | The header of a content section or the web page. The web page header often        |
@@ -39,6 +40,7 @@ Use the following tags to organize your HTML document into structured sections.
 | &lt;ul&gt; | Unordered list |
 
 <h2>Inline tags</h2>
+
 | Tag      | Description |
 |--------------|-----------------------------------------------------------------------------------|
 | &lt;a&gt;  | An anchor link to another HTML document.  |
@@ -77,7 +79,7 @@ Use the following tags to organize your HTML document into structured sections.
 | &lt;video&gt; | Embeds a video on a web page. &lt;source&gt; Specifies media resources for &lt;picture&gt;, &lt;audio&gt; and&lt;video&gt; elements.  |
 | &lt;svg&gt; | Used to define Scalable Vector Graphics within a web page. |
 
-| <h2>Table tags</h2> |
+<h2>Table tags</h2>
 
 | Tag      | Description |
 |--------------|-----------------------------------------------------------------------------------|
