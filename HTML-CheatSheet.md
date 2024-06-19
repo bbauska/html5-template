@@ -5,7 +5,7 @@ There are hundreds of semantic tags available to help describe the meaning of yo
 <h2>Sectioning tags</h2>
 <p>Use the following tags to organize your HTML document into structured sections.</p>
 
-| Tag      | Description |
+| Tag          | Description |
 |--------------|-----------------------------------------------------------------------------------|
 | &lt;header&gt;     | The header of a content section or the web page. The web page header often        |
 |              | contains the website branding or logo.                                            |
@@ -36,7 +36,8 @@ There are hundreds of semantic tags available to help describe the meaning of yo
 | &lt;li&gt; | Used to define an item within a list. |
 | &lt;menu&gt; | A semantic alternative to &lt;ul&gt; tag. | &lt;ol&gt; Defines an ordered list.  |
 | &lt;p&gt; | Defines a paragraph.  |
-| &lt;pre&gt; | Used to represent preformatted text. Typically rendered in the web browser using a monospace font.  |
+| &lt;pre&gt; | Used to represent preformatted text. Typically rendered in the web browser using a |
+|             | monospace font.                                                                    |
 | &lt;ul&gt; | Unordered list |
 
 <h2>Inline tags</h2>
