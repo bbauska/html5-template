@@ -2847,7 +2847,7 @@ HTML has the ability to let events trigger actions in a browser, like starting a
 Below are the global event attributes that can be added to HTML elements to define event actions.
 
 <h4 id="window-events">Window Event Attributes</h4>
-Events triggered for the window object (applies to the &lt;body&gt; tag):
+<p>Events triggered for the window object (applies to the &lt;body&gt; tag):</p>
 
 | Attribute      | Value  | Description |
 |----------------|--------|--------------------------------------------------------------------------|
@@ -2868,7 +2868,7 @@ Events triggered for the window object (applies to the &lt;body&gt; tag):
 | onunload       | script | Fires once a page has unloaded (or the browser window has been closed) |
 
 <h4 id="form-events">Form Events</h4>
-Events triggered by actions inside a HTML form (applies to almost all HTML elements, but is most used in form elements):
+<p>Events triggered by actions inside a HTML form (applies to almost all HTML elements, but is most used in form elements):</p>
 
 | Attribute      | Value  | Description |
 |----------------|--------|--------------------------------------------------------------------------|
@@ -2928,9 +2928,9 @@ Events triggered by actions inside a HTML form (applies to almost all HTML eleme
 
 <h4 id="media-events">Media Events</h4>
 
-Events triggered by medias like videos, images and audio (applies to all HTML 
-elements, but is most common in media elements, like <audio>, <embed>, <img>, 
-<object>, and <video>).
+<p>Events triggered by medias like videos, images and audio (applies to all HTML 
+elements, but is most common in media elements, like &lt;audio&gt;, &lt;embed&gt;, &lt;img&gt;, 
+&lt;object&gt;, and &lt;video&gt;).</p>
 
 |Attribute       |Value    |Description |
 |----------------|--------|--------------------------------------------------------------------------|
@@ -2962,4 +2962,4 @@ elements, but is most common in media elements, like <audio>, <embed>, <img>,
 
 |Attribute       |Value    |Description |
 |----------------|--------|--------------------------------------------------------------------------|
-| ontoggle | script | Fires when the user opens or closes the <details> element |
+| ontoggle | script | Fires when the user opens or closes the &lt;details&gt; element |
