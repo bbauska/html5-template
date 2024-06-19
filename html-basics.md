@@ -47,10 +47,6 @@ The Extensible Hypertext Markup Language, or XHTML, has two important notes for 
 1) It needs to be well formed, meaning all elements need to be closed and nested correctly or you will return errors.
 2) Since it is more strict than HTML is requires less pre-processing by the browser, which may improve your sites performance.
 
-<div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
-</div>
-
 ## Q. What are the building blocks of HTML5?
 
 * **Semantics**: allowing you to describe more precisely what your content is.
