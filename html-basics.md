@@ -31,10 +31,10 @@
 * [10. HTML Canvas](#10-html-canvas)
 * [11. HTML Storage](#11-html-storage)
 * [12. HTML APIs](#12-html-apis)
-* [13. HTML Drag and Drop](#13-html-drag-and-drop)
-* [14. HTML Web Worker](#14-html-web-worker)
-* [15. HTML Accessibility](#15-html-accessibility)
-* [16. Miscellaneous](#16-miscellaneous)
+* [13. HTML Drag and Drop](#13-html-dragndrop)
+* [14. HTML Web Worker](#14-html-webworker)
+* [15. HTML Accessibility](#15-html-access)
+* [16. Miscellaneous](#16-misc)
 
 <br/>
 
@@ -4353,35 +4353,35 @@ article</i> for further details.</p>
 tutorial, we have explained three types of lists- ordered lists, unordered lists, 
 and definition list. We have explained all three list types with examples.</p>
 
-<h2 id="7-html-">07. </h2>
+<h2 id="7-html-iframes">07. HTML iFrames</h2>
 
 
-<h2 id="8-html-">08. </h2>
+<h2 id="8-html-url">08. HTML URL</h2>
 
 
 
-<h2 id="9-html-">09. </h2>
+<h2 id="9-html-svg">09. HTML SVG</h2>
 
 
-<h2 id="10-html-">10. </h2>
+<h2 id="10-html-canvas">10. HTML Canvas</h2>
 
 
-<h2 id="11-html-">11. </h2>
+<h2 id="11-html-storage">11. HTML Storage</h2>
 
 
-<h2 id="12-html-">12. </h2>
+<h2 id="12-html-apis">12. HTML APIs</h2>
 
 
-<h2 id="13-html-">13. </h2>
+<h2 id="13-html-dragndrop">13. HTML Drag 'n Drop</h2>
 
 
-<h2 id="14-html-">14. </h2>
+<h2 id="14-html-webworker">14. HTML Web Worker</h2>
 
 
-<h2 id="15-html-">15. </h2>
+<h2 id="15-html-access">15. HTML Accessibility</h2>
 
 
-<h2 id="16-html-">16. </h2>
+<h2 id="16-misc">16. Miscellaneous</h2>
 
 
 
