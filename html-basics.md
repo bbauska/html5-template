@@ -2867,6 +2867,14 @@ Below are the global event attributes that can be added to HTML elements to defi
 | onload         | script | Fires after the page is finished loading |
 | onmessage      | script | Script to be run when the message is triggered |
 | onoffline      | script | Script to be run when the browser starts to work offline |
+
+<div align="right">
+    <b><a href="#toc">↥ back to top</a></b>
+</div>
+
+<p>cont'd</p>
+| Attribute      | Value  | Description |
+|----------------|--------|--------------------------------------------------------------------------|
 | ononline       | script | Script to be run when the browser starts to work online |
 | onpagehide     | script | Script to be run when a user navigates away from a page |
 | onpageshow     | script | Script to be run when a user navigates to a page |
