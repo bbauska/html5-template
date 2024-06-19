@@ -2980,7 +2980,7 @@ elements, but is most common in media elements, like &lt;audio&gt;, &lt;embed&gt
 |----------------|--------|--------------------------------------------------------------------------|
 | ontoggle | script | Fires when the user opens or closes the &lt;details&gt; element |
 
-<h2 id="4-html-forms">Forms Elements</h2>
+<h2 id="4-html-forms">4. Form Elements</h2>
 
 <p>The HTML &lt;form&gt; comprises several elements, each serving a unique purpose. For 
 instance, the &lt;label&gt; element is used to define labels for other &lt;form&gt; elements. 
