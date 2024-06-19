@@ -1,94 +1,93 @@
-Semantic HTML cheat sheet
+<h1>Semantic HTML cheat sheet</h1>
+
 There are hundreds of semantic tags available to help describe the meaning of your HTML documents. Below is a cheat sheet with some of the most common ones you’ll use in your development career. 
-Sectioning tags
+
+<h2>Sectioning tags</h2>
 Use the following tags to organize your HTML document into structured sections. 
-<header> 
-The header of a content section or the web page. The web page header often contains the website branding or logo.
- <nav> 
-The navigation links of a section or the web page. 
-<footer> 
-The footer of a content section or the web page. On a web page, it often contains secondary links, the copyright notice, privacy policy and cookie policy links. 
-<main> 
-Specifies the main content of a section or the web page. 
-<aside> 
-A secondary set of content that is not required to understand the main content. 
-<article> 
-An independent, self-contained block of content such as a blog post or product. 
-<section> 
-A standalone section of the document that is often used within the body and article elements. 
-<details> 
-A collapsed section of content that can be expanded if the user wishes to view it. 
-<summary> 
-Specifies the summary or caption of a <details> element. 
-<h1><h2><h3><h4><h5><h6>
-Headings on the web page. <h1> indicates the most important heading whereas <h6> indicates the least important.  
-Content tags
-<blockquote> 
-Used to describe a quotation. 
-<dd> 
-Used to define a description for the preceding <dt> element. 
-<dl> 
-Used to define a description list. 
-<dt> 
-Used to describe terms inside <dl> elements. 
-<figcaption> 
-Defines a caption for a photo image. 
-<figure> 
-Applies markup to a photo image. 
-<hr> 
-Adds a horizontal line to the parent element. 
-<li> 
-Used to define an item within a list.
-<menu> 
-A semantic alternative to <ul> tag. 
-<ol> 
-Defines an ordered list. 
-<p> 
-Defines a paragraph. 
-<pre> 
-Used to represent preformatted text. Typically rendered in the web browser using a monospace font. 
-<ul> 
-Unordered list
-Inline tags
-<a> An anchor link to another HTML document. 
-<abbr> Specifies that the containing text is an abbreviation or acronym. 
-<b> Bolds the containing text. When used to indicate importance use <strong> instead. 
-<br> A line break. Moves the subsequent text to a new line. 
-<cite> Defines the title of creative work (for example a book, poem, song, movie, painting or sculpture). The text in the <cite> element is usually rendered in italics. 
-<code> Indicates that the containing text is a block of computer code. 
-<data> Indicates machine-readable data. 
-<em> Emphasizes the containing text. 
-<i> The containing text is displayed in italics. Used to indicate idiomatic text or technical terms. 
-<mark> The containing text should be marked or highlighted. 
-<q> The containing text is a short quotation.
- <s> Displays the containing text with a strikethrough or line through it. 
-<samp> The containing text represents a sample. 
-<small> Used to represent small text, such as copyright and legal text. 
-<span> A generic element for grouping content for CSS styling. 
-<strong> Displays the containing text in bold. Used to indicate importance. 
-<sub> The containing text is subscript text, displayed with a lowered baseline. 
-<sup> The containing text is superscript text, displayed with a raised baseline. 
-<time> A semantic tag used to display both dates and times. 
-<u> Displays the containing text with a solid underline. 
-<var> The containing text is a variable in a mathematical expression.
-Embedded content and media tags
-<audio> Used to embed audio in web pages. 
-<canvas> Used to render 2D and 3D graphics on web pages. 
-<embed> Used as a containing element for external content provided by an external application such as a media player or plug-in application. 
-<iframe> Used to embed a nested web page. 
-<img> Embeds an image on a web page. 
-<object> Similar to <embed> but the content is provided by a web browser plug-in. 
-<picture> An element that contains one <img> element and one or more <source> elements to offer alternative images for different displays/devices. 
-<video> Embeds a video on a web page. <source> Specifies media resources for <picture>, <audio> and<video> elements. 
-<svg> Used to define Scalable Vector Graphics within a web page.
-Table tags
-<table> Defines a table element to display table data within a web page. 
-<thead> Represents the header content of a table. Typically contains one <tr> element.
- <tbody> Represents the main content of a table. Contains one or more <tr> elements. 
-<tfoot> Represents the footer content of a table. Typically contains one <tr> element. 
-<tr> Represents a row in a table. Contains one or more <td> elements when used within <tbody> or <tfoot>. When used within <thead>, contains one or more <th> elements.
- <td> Represents a cell in a table. Contains the text content of the cell. 
-<th> Defines a header cell of a table. Contains the text content of the header. 
-<caption> Defines the caption of a table element. 
-<colgroup> Defines a semantic group of one or more columns in a table for formatting. 
-<col> Defines a semantic column in a table.
+| Tag      | Description |
+|--------------|-----------------------------------------------------------------------------------|
+| &lt;header&gt;     | The header of a content section or the web page. The web page header often        |
+|              | contains the website branding or logo.                                            |
+| &lt;nav&gt;        | The navigation links of a section or the web page.                                |
+| &lt;footer&gt;     | The footer of a content section or the web page. On a web page, it often contains |
+|              | secondary links, the copyright notice, privacy policy and cookie policy links.    |
+| &lt;main&gt;       | Specifies the main content of a section or the web page.                          |
+| &lt;aside&gt;      | A secondary set of content that is not required to understand the main content.   |
+| &lt;article&gt;    | An independent, self-contained block of content such as a blog post or product.   |
+| &lt;section&gt;    | A standalone section of the document that is often used within the body and       |
+|              | article elements.                                                                 |
+| &lt;details&gt;    | A collapsed section of content that can be expanded if the user wishes to view it.|
+| &lt;summary&gt;    | Specifies the summary or caption of a &lt;details&gt; element.                          |
+| &lt;h1&gt;&lt;h2&gt;&lt;h3&gt; | Headings on the web page. &lt;h1&gt; indicates the most important heading whereas &lt;h6&gt;  |
+| &lt;h4&gt;&lt;h5&gt;&lt;h6&gt; | indicates the least important.                                                   |
+
+<h2>Content tags</h2>
+
+| Tag      | Description |
+|--------------|-----------------------------------------------------------------------------------|
+| &lt;blockquote&gt; | Used to describe a quotation. | 
+| &lt;dd&gt; | Used to define a description for the preceding &lt;dt&gt; element.  |
+| &lt;dl&gt; | used to define a description list.  |
+| &lt;dt&gt; | Used to describe terms inside &lt;dl&gt; elements.  |
+| &lt;figcaption&gt; | Defines a caption for a photo image.  |
+| &lt;figure&gt; | Applies markup to a photo image.  |
+| &lt;hr&gt; | Adds a horizontal line to the parent element.  |
+| &lt;li&gt; | Used to define an item within a list. |
+| &lt;menu&gt; | A semantic alternative to &lt;ul&gt; tag. | &lt;ol&gt; Defines an ordered list.  |
+| &lt;p&gt; | Defines a paragraph.  |
+| &lt;pre&gt; | Used to represent preformatted text. Typically rendered in the web browser using a monospace font.  |
+| &lt;ul&gt; | Unordered list |
+
+<h2>Inline tags</h2>
+| Tag      | Description |
+|--------------|-----------------------------------------------------------------------------------|
+| &lt;a&gt;  | An anchor link to another HTML document.  |
+| &lt;abbr&gt; | Specifies that the containing text is an abbreviation or acronym. |
+| &lt;b&gt; | Bolds the containing text. When used to indicate importance use &lt;strong&gt; instead. |
+| &lt;br&gt; | A line break. Moves the subsequent text to a new line. |
+| &lt;cite&gt; | Defines the title of creative work (for example a book, poem, song, movie, painting or sculpture). The text in the &lt;cite&gt; element is usually rendered in italics.  |
+| &lt;code&gt; | Indicates that the containing text is a block of computer code. |
+| &lt;data&gt; | Indicates machine-readable data. |
+| &lt;em&gt; | Emphasizes the containing text. |
+| &lt;i&gt; | The containing text is displayed in italics. Used to indicate idiomatic text or technical terms.  |
+| &lt;mark&gt; | The containing text should be marked or highlighted.  |
+| &lt;q&gt; | The containing text is a short quotation. |
+| &lt;s&gt; | Displays the containing text with a strikethrough or line through it.  |
+| &lt;samp&gt; | The containing text represents a sample.  |
+| &lt;small&gt; | Used to represent small text, such as copyright and legal text.  |
+| &lt;span&gt; | A generic element for grouping content for CSS styling.  |
+| &lt;strong&gt; | Displays the containing text in bold. Used to indicate importance.  |
+| &lt;sub&gt; | The containing text is subscript text, displayed with a lowered baseline.  |
+| &lt;sup&gt; | The containing text is superscript text, displayed with a raised baseline.  |
+| &lt;time&gt; | A semantic tag used to display both dates and times.  |
+| &lt;u&gt; | Displays the containing text with a solid underline.  |
+| &lt;var&gt; | The containing text is a variable in a mathematical expression. |
+
+<h2>Embedded content and media tags</h2>
+
+| Tag      | Description |
+|--------------|-----------------------------------------------------------------------------------|
+| &lt;audio&gt; | Used to embed audio in web pages.  |
+| &lt;canvas&gt; | Used to render 2D and 3D graphics on web pages.  |
+| &lt;embed&gt; | Used as a containing element for external content provided by an external application such as a media player or plug-in application.  |
+| &lt;iframe&gt; | Used to embed a nested web page.  |
+| &lt;img&gt; | Embeds an image on a web page.  |
+| &lt;object&gt; | Similar to &lt;embed&gt; but the content is provided by a web browser plug-in.  |
+| &lt;picture&gt; | An element that contains one &lt;img&gt; element and one or more &lt;source&gt; elements to offer alternative images for different displays/devices.  |
+| &lt;video&gt; | Embeds a video on a web page. &lt;source&gt; Specifies media resources for &lt;picture&gt;, &lt;audio&gt; and&lt;video&gt; elements.  |
+| &lt;svg&gt; | Used to define Scalable Vector Graphics within a web page. |
+
+| <h2>Table tags</h2> |
+
+| Tag      | Description |
+|--------------|-----------------------------------------------------------------------------------|
+| &lt;table&gt;  | Defines a table element to display table data within a web page.  |
+| &lt;thead&gt; | Represents the header content of a table. Typically contains one &lt;tr&gt; element. |
+| &lt;tbody&gt; | Represents the main content of a table. Contains one or more &lt;tr&gt; elements.  |
+| &lt;tfoot&gt; | Represents the footer content of a table. Typically contains one &lt;tr&gt; element.  |
+| &lt;tr&gt; | Represents a row in a table. Contains one or more &lt;td&gt; elements when used within &lt;tbody&gt; or &lt;tfoot&gt;. When used within &lt;thead&gt;, contains one or more &lt;th&gt; elements. |
+| &lt;td&gt; | Represents a cell in a table. Contains the text content of the cell.  |
+| &lt;th&gt; | Defines a header cell of a table. Contains the text content of the header.  |
+| &lt;caption&gt; | Defines the caption of a table element.  |
+| &lt;colgroup&gt; | Defines a semantic group of one or more columns in a table for formatting.  |
+| &lt;col&gt; | Defines a semantic column in a table. |
