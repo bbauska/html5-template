@@ -59,7 +59,7 @@ The Extensible Hypertext Markup Language, or XHTML, has two important notes for 
 * **Styling**: letting authors write more sophisticated themes.
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. What are the semantic tags available in html5?
@@ -110,7 +110,7 @@ HTML5 offers new semantic elements to define different parts of a web page:
 ```
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. Why you would like to use semantic tag?
@@ -123,7 +123,7 @@ HTML5 offers new semantic elements to define different parts of a web page:
 * It\'s easier to read and edit, which saves time and money during maintenance.
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. What does a `<DOCTYPE html>` do?
@@ -133,7 +133,7 @@ A DOCTYPE is always associated to a `DTD` ( **Document Type Definition** ). A DT
 Once a user agent has recognized a correct DOCTYPE, it will trigger the `no-quirks mode` matching this DOCTYPE forreading the document. If a user agent doesn't recognize a correct DOCTYPE, it will trigger the `quirks mode`.
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. What happens when DOCTYPE is not given?
@@ -141,7 +141,7 @@ Once a user agent has recognized a correct DOCTYPE, it will trigger the `no-quir
 The web page is rendered in quirks mode. The web browsers engines use quirks mode to support older browsers which does not follow the **W3C specifications**. In quirks mode CSS class and id names are case insensitive. In standards mode they are case sensitive.
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. What are the new form elements in HTML5?
@@ -223,7 +223,7 @@ Indicates how much of a task has been completed (often marked as a percentage). 
 ```
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 <h3 id="new-form-elements">List New form elements introduced in html5</h3>
@@ -282,7 +282,7 @@ Indicates how much of a task has been completed (often marked as a percentage). 
 ```
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 <h4>Example to create a HTML form with below constraints</h4>
@@ -398,7 +398,7 @@ Indicates how much of a task has been completed (often marked as a percentage). 
 ```
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 <h3 id="diff-span-div">What is difference between `span` tag and `div` tag?</h3>
@@ -419,7 +419,7 @@ a `<div>` is a **block-level-element** and a `<span>` is an **inline element**.
 ```
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. What are optional closing tags?
@@ -428,7 +428,7 @@ a `<div>` is a **block-level-element** and a `<span>` is an **inline element**.
 tag. Whenever a browser hits a new tag it automatically end the previous tag. 
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. What is a self closing tag?
@@ -449,7 +449,7 @@ An example of a self closing tag is something like a line break (`<br />`) or th
 * inline elements `<span>, <a>, <strong>, <i>, <img>`
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. What are semantic and non-semantic elements?
@@ -460,7 +460,7 @@ For example: `<form>`, `<table>`,  `<article>`, `<aside>`, `<details>`, `<figcap
 * **Non-semantic elements**: `<div>` and `<span>` tells nothing about its content.
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. What is the purpose of `main` element?
@@ -478,7 +478,7 @@ The HTML `<main>` element represents the dominant content of the `<body>` of a d
 *Note: A document mustn\'t have more than one `<main>` element that doesn't have the hidden attribute specified.*
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. What are the semantic meanings for `<section>, <article>, <aside>, <nav>, <header>, <footer>` and how should each be used in structuring html markup?
@@ -492,7 +492,7 @@ The HTML `<main>` element represents the dominant content of the `<body>` of a d
 * `<footer>` is used to hold information that should appear at the end of a section of content and contain additional information about the section. Author\'s name, copyright information, and related links are typical examples of such content.
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. When should you use `section`, `div` or `article`?
@@ -504,7 +504,7 @@ The HTML `<main>` element represents the dominant content of the `<body>` of a d
 * `<div>`, on the other hand, does not convey any meaning, aside from any found in its class, lang and title attributes.
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. Can a web page contain multiple `<header>` elements? What about `<footer>` elements?
@@ -526,7 +526,7 @@ documents, copyright data, and the like.
 ```
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. What are the physical tags and logical tags in HTML?
@@ -574,7 +574,7 @@ Logical tags are used to tell the browser what kind of text is written inside th
 |`<var>`    |Defines the variable in a mathematical equation or in the computer program.|
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. What is Character Encoding?
@@ -588,7 +588,7 @@ Character encoding is a method of converting bytes into characters. To validate 
 * **UTF-8**: A Unicode Translation Format that comes in 8-bit units that is, it comes in bytes. A character in UTF8 can be from 1 to 4 bytes long, making UTF8 variable width.
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. What is the purpose of meta tags?
@@ -650,7 +650,7 @@ The META elements can be used to include name/value pairs describing properties 
 ```
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. What does async and defer refer in script tag?
@@ -699,7 +699,7 @@ The defer attribute tells the browser to only execute the script file once the H
 ```
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. What is local storage in html5?
@@ -717,7 +717,7 @@ localStorage.getItem("name"); // Kanti Ahluwalia
 ```
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. What is session storage in html5?
@@ -741,7 +741,7 @@ sessionStorage.clear();
 ```
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. What is cookies in html5?
@@ -788,7 +788,7 @@ document.cookie = "username=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
 ```
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. Describe the difference between a cookie, sessionStorage and localStorage?
@@ -804,7 +804,7 @@ document.cookie = "username=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
 *Note: If the user decides to clear browsing data via whatever mechanism provided by the browser, this will clear out any `cookie`, `localStorage`, or `sessionStorage` stored. It\'s important to keep this in mind when designing for local persistance, especially when comparing to alternatives such as server side storing in a database or similar (which of course will persist despite user actions).*
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. Does localStorage throw error after reaches maximum limits?
@@ -850,7 +850,7 @@ Exception: QuotaExceededError: Failed to execute 'setItem' on 'Storage':
 ```
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. Why to use IndexedDB instead of WebSQL in HTML5?
@@ -892,7 +892,7 @@ It is the successor to both LocalStorage and WebSQL, designed to replace them as
 * Very complex API resulting in large amounts of nested callbacks.
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. Explain Application Cache in HTML5. OR What is a manifest file in HTML?
@@ -916,7 +916,7 @@ Syntax:
 *Note: Using the application caching feature described here is at this point highly discouraged; it\'s in the process of being removed from the Web platform. Use **Service Workers** instead. In fact as of Firefox 44, when AppCache is used to provide offline support for a page a warning message is now displayed in the console advising developers to use Service workers instead (bug 1204581).*
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. What is the purpose of cache busting and how can you achieve it?
@@ -937,7 +937,7 @@ A common technique to force the browser to re-download the file is to append a q
 The browser considers it a different file but prevents the need to change the file name.
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. What ARIA and screenreaders are, and how to make a website accessible?
@@ -945,7 +945,7 @@ The browser considers it a different file but prevents the need to change the fi
 Screen readers are software programs that  provide assistive technologies that allow people with disabilities (such as no sight, sound or mouse-ing ability) to use web applications. You can make your sites more accessible by following ARIA standards such as semantic HTML, alt attributes and using [role=button] in the expected ways
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. How to use data- attribute in html5?
@@ -979,7 +979,7 @@ article.dataset.parent; // "cars"
 **&#9885; [Try this example on CodeSandbox](https://codesandbox.io/s/html-data-attribute-llxlkn?file=/script.js)**
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. What is the purpose of the `alt` attribute on images?
@@ -991,7 +991,7 @@ The `alt` attribute provides alternative information for an image if a user cann
 ```
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. What does `enctype='multipart/form-data'` mean?
@@ -1036,7 +1036,7 @@ The enctype attribute specifies how the form-data should be encoded when submitt
 | 03.  |text/plain                |Spaces are converted to "+" symbols, but no special characters are encoded|
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. What is difference between Select and Datalist?
@@ -1069,7 +1069,7 @@ For the select element, the user is required to select one of the options you\'v
 ```
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. Explain some of the pros and cons for CSS animations versus JavaScript animations?
@@ -1087,7 +1087,7 @@ Regarding optimization and responsiveness the debate bounces back and forth but,
 * CSS animations being declarative are not programmable therefore limited in capability.
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. What does CORS stand for and what issue does it address?
@@ -1095,7 +1095,7 @@ Regarding optimization and responsiveness the debate bounces back and forth but,
 Cross-Origin Resource Sharing (CORS) is a W3C spec that allows cross-domain communication from the browser. By building on top of the XMLHttpRequest object, CORS allows developers to work with the same idioms as same-domain requests. CORS gives web servers cross-domain access controls, which enable secure cross-domain data transfers.
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. Can you describe the difference between progressive enhancement and graceful degradation?
@@ -1105,7 +1105,7 @@ Cross-Origin Resource Sharing (CORS) is a W3C spec that allows cross-domain comm
 * Progressive enhancement ensures a page works at the lowest expected abilities of browsers. So if you have a JavaScript web application that enhances a persons ability to send information to a database with features like ajax – at the very least you need to provide the ability for a person to send that same information without JavaScript enabled. In this case a simple form with full-page refresh will do what you need.
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. What is the DOM? How does the DOM work?
@@ -1119,7 +1119,7 @@ The DOM (Document Object Model) is a cross-platform API that treats HTML documen
 * Setting the innerHTML property to a new value runs the string through the HTML parser, offering an easy way to append dynamic HTML content to a node.
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. How does the browser rendering engine work?
@@ -1137,7 +1137,7 @@ In order to render content the browser has to go through a series of steps:
 </p>
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. What is the difference between standards mode and quirks mode?
@@ -1158,7 +1158,7 @@ For HTML documents, browsers use a `<!DOCTYPE html>` in the beginning of the doc
 ```
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. What is Critical Rendering Path?
@@ -1171,7 +1171,7 @@ For HTML documents, browsers use a `<!DOCTYPE html>` in the beginning of the doc
 * Painting
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. What are the Benefits of Server Side Rendering (SSR) Over Client Side Rendering (CSR)?
@@ -1185,7 +1185,7 @@ For HTML documents, browsers use a `<!DOCTYPE html>` in the beginning of the doc
 * for SSR, the user can start viewing the page while all of that is happening. For the CSR world, you need to wait for all of the above to happen and then have the virtual dom moved to the browser dom for the page to be viewable.
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. Name 3 ways to decrease page load?
@@ -1196,7 +1196,7 @@ For HTML documents, browsers use a `<!DOCTYPE html>` in the beginning of the doc
 1. Keep resources on a CDN
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. Ways to improve website performance
@@ -1276,7 +1276,7 @@ For HTML documents, browsers use a `<!DOCTYPE html>` in the beginning of the doc
 * Avoid Empty Image src
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. Comparison of browsers engines like Chrome, Firefox, Internet explorer, Safari?
@@ -1298,7 +1298,7 @@ For HTML documents, browsers use a `<!DOCTYPE html>` in the beginning of the doc
     * JavaScript engine JavascriptCore i.e **Nitro**
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. What does the lang attribute in html do?
@@ -1306,7 +1306,7 @@ For HTML documents, browsers use a `<!DOCTYPE html>` in the beginning of the doc
 * Helps in styling pages by using them in css `:lang()` pseudo class Spelling and grammar checkers Languade detection by search engines
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. What is desktop first and mobile first design approach?
@@ -1320,7 +1320,7 @@ For HTML documents, browsers use a `<!DOCTYPE html>` in the beginning of the doc
     In desktop first approach the media queries will be written with respect to max-width whereas in mobile first approach media queries will be written with respect to min-width
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. What are `data-` attributes good for?
@@ -1328,7 +1328,7 @@ For HTML documents, browsers use a `<!DOCTYPE html>` in the beginning of the doc
 * The HTML5 data attribute lets you assign custom data to an element. When we want to store more information/data about the element when no suitable HTML5 element or attribute exists
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. Explain the difference between layout, painting and compositing?
@@ -1356,7 +1356,7 @@ Painting is the process of filling in pixels. It involves drawing out text, colo
 Since the parts of the page were drawn into potentially multiple layers they need to be drawn to the screen in the correct order so that the page renders correctly. This is especially important for elements that overlap another, since a mistake could result in one element appearing over the top of another incorrectly.
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. Explain about HTML Layout Engines used by browsers?
@@ -1370,7 +1370,7 @@ Since the parts of the page were drawn into potentially multiple layers they nee
 |Trident      |Discontinued      |Internet Explorer browser and Microsoft Outlook email client                   |
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. How to make page responsive?
@@ -1426,7 +1426,7 @@ Using media queries you can define completely different styles for different bro
 ```
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. Does the following trigger http request at the time of page load?
@@ -1442,7 +1442,7 @@ Using media queries you can define completely different styles for different bro
 * Yes
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. List the API available in HTML5?
@@ -1533,7 +1533,7 @@ function toggleFullScreen() {
 ```
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. How geolocation api works in html5?
@@ -1602,7 +1602,7 @@ if ("geolocation" in navigator) {
 ```
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. What is the use of WebSocket API?
@@ -1635,7 +1635,7 @@ socket.addEventListener('message', function(event) {
 ```
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. Explain about HTML Canvas?
@@ -1770,7 +1770,7 @@ socket.addEventListener('message', function(event) {
 ```
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. What is difference between SVG and Canvas?
@@ -1849,7 +1849,7 @@ Canvas is a HTML element is used to draw graphics on a web page. It is a  bitmap
 |Better scalability. Can be printed with high quality at any resolution. Pixelation does not occur    |Poor scalability. Not suitable for printing on higher resolution. Pixelation may occur |
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. Explain Drag and Drop in HTML5?
@@ -1896,7 +1896,7 @@ Example
 ```
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. Explain Microdata in HTML5?
@@ -1923,7 +1923,7 @@ Example
 ```
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. What are the HTML tags which deprecated in HTML5?
@@ -2008,7 +2008,7 @@ The following elements are not available in HTML5 anymore and their function is 
 |width                  |hr, table, td, th, col, colgroup and pre.|
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. How you can Use Modernizr in HTML5?
@@ -2042,7 +2042,7 @@ if (Modernizr.canvas) {
 ```
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. What is progressive rendering?
@@ -2083,7 +2083,7 @@ Since the APIs are usually co-located with the server, the content is loaded sup
 </p>
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 <h2 id="7-html-iframe">7. HTML Iframe</h2>
@@ -2149,7 +2149,7 @@ The `<iframe>` HTML element represents a nested browsing context, embedding anot
 *Note: Because each browsing context is a complete document environment, every `&lt;iframe&gt;` in a page requires increased memory and other computing resources.*
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. Explain the use of rel="nofollow", rel="noreferrer", rel="noopener" attribute? 
@@ -2187,7 +2187,7 @@ It prevents the new page from being able to access the `window.opener` property 
 ```
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. How can you highlight text in HTML?
@@ -2212,7 +2212,7 @@ The `<mark>` HTML element represents text which is marked or highlighted for ref
 ```
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. How can I get indexed better by search engines?
@@ -2292,7 +2292,7 @@ One of the most important features of HTML5 is its semantics tags. Semantic tags
 </p>
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. What is the difference between an "attribute" and a "property" in HTML?
@@ -2316,7 +2316,7 @@ The **value** property reflects the current text-content inside the input box, w
 |These are used to initialize the DOM properties.| No such job defined.|
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. How do you set IE compatibility mode?
@@ -2352,7 +2352,7 @@ The meta element includes a content attribute that enables you to specify the mo
 *Note: It is recommended that Web developers restrict their use of Edge mode to test pages and other non-production uses because of the possible unexpected results of rendering page content in future versions of Windows Internet Explorer.*
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. What is an optional tag?
@@ -2396,7 +2396,7 @@ The following lists all optional tags.
 |`<wbr>`        |             |
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. What is an HTML preprocessor? Have you used different HTML templating languages before?
@@ -2408,7 +2408,7 @@ No, but I heard about html template language like PUG (formerly Jade), Haml, ERB
 The typical usage is when you render something on the server side. The usual use-case is when you have to add dynamic content to your website, so when you fetch something from your database, you will have to replace some parts in your original template.
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. How do you change the direction of html text?
@@ -2439,7 +2439,7 @@ We can set text direction in HTML in one of two ways:
 |auto           |Let the browser figure out the text direction, based on the content|
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. When is it appropriate to use the small element?
@@ -2468,7 +2468,7 @@ The `<small>` HTML element represents side-comments and small print, like copyri
 ```
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. How do you serve a page with content in multiple languages?
@@ -2498,7 +2498,7 @@ The **lang** attribute specifies the language of the element\'s content.
 ```
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. What is the difference between `<section>` and `<div>`?
@@ -2566,7 +2566,7 @@ The `<div>` element only represents its child elements and doesn\'t have a speci
 ```
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. Discuss the differences between an HTML specification and a browser\'s implementation thereof.
@@ -2578,7 +2578,7 @@ A browser is said to "support" a specification if it handles valid documents acc
 In addition, while HTML5 defines some rules to follow for an invalid HTML5 document (i.e., one that contains syntactical errors), invalid documents may contain anything, and it is impossible for the specification to handle all possibilities comprehensively. Thus, many decisions about how to handle malformed documents are left up to the browser.
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. Why you would use a srcset attribute in an image tag? Explain the process the browser used when evaluating the content of this attribute.
@@ -2625,7 +2625,7 @@ The syntax is similar to the display density descriptor, but instead of display 
 ```
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. What is accessibility & ARIA role means in a web application?
@@ -2754,7 +2754,7 @@ While there are 35 aria properties and states the W3C defines and which you can 
 * **aria-selected (state)**: Indicates the current “selected” state of various widgets.
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 ## Q. Create a traffic signal light in html?
@@ -2837,7 +2837,7 @@ While there are 35 aria properties and states the W3C defines and which you can 
 ```
 
 <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
+    <b><a href="#toc">↥ back to top</a></b>
 </div>
 
 <h2 id="3-html-events">HTML Events</h2>
