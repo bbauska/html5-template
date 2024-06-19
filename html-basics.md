@@ -110,7 +110,7 @@ HTML5 offers new semantic elements to define different parts of a web page:
 ```
 
 <div align="right">
-    <b><a href="toc">↥ back to top</a></b>
+    <b><a href="#">↥ back to top</a></b>
 </div>
 
 ## Q. Why you would like to use semantic tag?
@@ -123,7 +123,7 @@ HTML5 offers new semantic elements to define different parts of a web page:
 * It\'s easier to read and edit, which saves time and money during maintenance.
 
 <div align="right">
-    <b><a href="toc">↥ back to top</a></b>
+    <b><a href="#">↥ back to top</a></b>
 </div>
 
 ## Q. What does a `<DOCTYPE html>` do?
@@ -133,7 +133,7 @@ A DOCTYPE is always associated to a `DTD` ( **Document Type Definition** ). A DT
 Once a user agent has recognized a correct DOCTYPE, it will trigger the `no-quirks mode` matching this DOCTYPE forreading the document. If a user agent doesn't recognize a correct DOCTYPE, it will trigger the `quirks mode`.
 
 <div align="right">
-    <b><a href="toc">↥ back to top</a></b>
+    <b><a href="#">↥ back to top</a></b>
 </div>
 
 ## Q. What happens when DOCTYPE is not given?
@@ -141,7 +141,7 @@ Once a user agent has recognized a correct DOCTYPE, it will trigger the `no-quir
 The web page is rendered in quirks mode. The web browsers engines use quirks mode to support older browsers which does not follow the **W3C specifications**. In quirks mode CSS class and id names are case insensitive. In standards mode they are case sensitive.
 
 <div align="right">
-    <b><a href="toc">↥ back to top</a></b>
+    <b><a href="#">↥ back to top</a></b>
 </div>
 
 ## Q. What are the new form elements in HTML5?
