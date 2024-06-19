@@ -27,18 +27,17 @@ There are hundreds of semantic tags available to help describe the meaning of yo
 | Tag      | Description |
 |--------------|-----------------------------------------------------------------------------------|
 | &lt;blockquote&gt; | Used to describe a quotation. | 
-| &lt;dd&gt; | Used to define a description for the preceding &lt;dt&gt; element.  |
-| &lt;dl&gt; | used to define a description list.  |
-| &lt;dt&gt; | Used to describe terms inside &lt;dl&gt; elements.  |
-| &lt;figcaption&gt; | Defines a caption for a photo image.  |
-| &lt;figure&gt; | Applies markup to a photo image.  |
-| &lt;hr&gt; | Adds a horizontal line to the parent element.  |
+| &lt;dd&gt; | Used to define a description for the preceding &lt;dt&gt; element. |
+| &lt;dl&gt; | used to define a description list. |
+| &lt;dt&gt; | Used to describe terms inside &lt;dl&gt; elements. |
+| &lt;figcaption&gt; | Defines a caption for a photo image. |
+| &lt;figure&gt; | Applies markup to a photo image. |
+| &lt;hr&gt; | Adds a horizontal line to the parent element. |
 | &lt;li&gt; | Used to define an item within a list. |
-| &lt;menu&gt; | A semantic alternative to &lt;ul&gt; tag. | &lt;ol&gt; Defines an ordered list.  |
-| &lt;p&gt; | Defines a paragraph.  |
-| &lt;pre&gt; | Used to represent preformatted text. Typically rendered in the web browser using a |
-|             | monospace font.                                                                    |
-| &lt;ul&gt; | Unordered list |
+| &lt;menu&gt; | A semantic alternative to &lt;ul&gt; tag. | &lt;ol&gt; Defines an ordered list. |
+| &lt;p&gt; | Defines a paragraph. |
+| &lt;pre&gt; | Used to represent preformatted text. Typically rendered in the web browser using a monospace font. |
+| &lt;ul&gt; | Unordered list. |
 
 <h2>Inline tags</h2>
 
