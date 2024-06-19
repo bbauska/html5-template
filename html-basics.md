@@ -4100,8 +4100,258 @@ potential of introducing errors.</p>
 
 <!-- end of html tables -->
 
-<h2 id="6-html-">06. </h2>
+<h2 id="6-html-">06. HTML Lists</h2>
+<p>An HTML list is a record of related information used to display the data or 
+any information on web pages in the ordered or unordered form.</p>
 
+<h3>HTML List Example</h3>
+
+<h4>Basic Implementation of HTML lists.</h4>
+
+```
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>GeeksforGeeks</title>
+</head>
+
+<body>
+    <h2>Welcome To GeeksforGeeks Learning</h2>
+    <h5>List of available courses</h5>
+    <ul>
+        <li>Data Structures & Algorithm</li>
+        <li>Web Technology</li>
+        <li>Aptitude & Logical Reasoning</li>
+        <li>Programming Languages</li>
+    </ul>
+    <h5>Data Structures topics</h5>
+    <ol>
+        <li>Array</li>
+        <li>Linked List</li>
+        <li>Stacks</li>
+        <li>Queues</li>
+        <li>Trees</li>
+        <li>Graphs</li>
+    </ol>
+</body>
+
+</html>
+```
+
+<h5>Output:</h5>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 06-01. html list ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img class="displayed"
+  src="./images/06-image001.png"
+  title="HTML List"
+  alt="HTML List."
+  style="width:40%" >
+</p>
+
+<h3>There are three types of lists in HTML:</h3>
+
+<h4>Table of Content</h4>
+
+<ol>
+  <li>HTML Unordered List or Bulleted List</li>
+  <li>HTML Ordered List</li>
+  <li>HTML Description List</li>
+</ol>
+
+<h3>HTML List Tags</h3>
+<p>Here is the list of all lists tags HTML:</p>
+
+| Tag | Description |
+|------|----------------------------------------|
+| <ul> | Defines an unordered list |
+| <ol> | Defines an ordered list |
+| <li> | Defines a list item |
+| <dl> | Defines a description list |
+| <dt> | Defines a term in a description list |
+| <dd> | Details the term in a description list |
+
+<h3>The HTML Unordered List or Bulleted List</h3>
+
+<p>The unordered list items are marked with bullets. It is also known as bulleted 
+lists. An unordered list starts with the &lt;ul&gt; tag. Each list item starts with the 
+&lt;li&gt; tag.</p>
+
+<h5>Syntax:</h5>
+
+```
+<ul> list of items </ul>
+```
+
+<p><b>Attribute:</b> This tag contains two attributes which are listed below:</p>
+
+<ul>
+  <li>compact: It will render the list smaller.</li>
+  <li>type: It specifies which kind of marker is used in the list.</li>
+</ul>
+
+<p><b>Example:</b> This example describes the unordered list.</p>
+
+```
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h2>Grocery list</h2>
+    <ul>
+        <li>Bread</li>
+        <li>Eggs</li>
+        <li>Milk</li>
+        <li>Coffee</li>
+    </ul>
+</body>
+
+</html>
+```
+
+<h5>Output:</h5>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 06-02. unordered list ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img class="displayed"
+  src="./images/06-image002.png"
+  title="Unordered List"
+  alt="Unordered List."
+  style="width:40%" >
+</p>
+
+<h3>HTML Ordered List</h3>
+
+<p>In an ordered list, all list items are marked with numbers by default. An 
+ordered list starts with the &lt;ol&gt; tag. Each list item starts with the 
+"li" tag.</p>
+
+<h5>Syntax:</h5>
+
+```
+<ol>
+   <li>Item1</li>
+   <li>Item2</li>
+   <li>Item3</li>
+</ol>
+```
+
+<h4>Attributes:</h4>
+
+<ul>
+  <li>compact: It defines the list should be compacted (compact attribute is not 
+    supported in HTML5. Use CSS instead.).</li>
+  <li>reversed: It defines that the order will be descending.</li>
+  <li>start: It defines from which number or alphabet the order will start.</li>
+  <li>type: It defines which type(1, A, a, I, and i) of the order you want in 
+    your list of numeric, alphabetic, or roman numbers.</li>
+</ul>
+
+<p><b>Example:</b> This example illustrates the use of the reverse attribute, 
+control list counting & type attribute.</p>
+
+```
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML ol tag</title>
+</head>
+
+<body>
+    <h1 style="color: green">GeeksforGeeks</h1>
+    <h3>HTML ol tag</h3>
+    
+<p>reversed attribute</p>
+
+    <ol reversed>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+    </ol>
+    
+<p>start attribute</p>
+
+    <ol start="5">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+    </ol>
+    
+<p>type attribute</p>
+
+    <ol type="i">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+    </ol>
+</body>
+
+</html>
+```
+
+<h5>Output:</h5>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 06-03. ordered list with different list style ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img class="displayed"
+  src="./images/06-image003.png"
+  title="Ordered list with different list style"
+  alt="Ordered list with different list style."
+  style="width:40%" >
+</p>
+
+<h3>HTML Description List</h3>
+
+<p>A description list is a list of terms, with a description of each term. The 
+&lt;dl&gt; tag defines the description list, the &lt;dt&gt; tag defines the term name, 
+and the &lt;dd&gt; tag describes each term.</p>
+
+<h5>Syntax:</h5>
+
+```
+<dl> Contents... </dl>
+```
+
+<p>Please refer to the <i>How to add description list of an element using HTML? 
+article</i> for further details.</p>
+
+<p><b>Example:</b> This example describes the HTML Description List.</p>
+
+```
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h2>A Description List</h2>
+    <dl> 
+        <dt>Coffee</dt>
+        <dd>- 500 gms</dd>
+        <dt>Milk</dt>
+        <dd>- 1 ltr Tetra Pack</dd>
+    </dl>
+</body>
+
+</html>
+```
+
+<h5>Output:</h5>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 06-04. description list ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img class="displayed"
+  src="./images/06-image004.png"
+  title="Description list"
+  alt="Description list."
+  style="width:40%" >
+</p>
+
+<h4>Conclusion</h4>
+
+<p>HTML lists provide a way to display a structured collection of items. In this 
+tutorial, we have explained three types of lists- ordered lists, unordered lists, 
+and definition list. We have explained all three list types with examples.</p>
 
 <h2 id="7-html-">07. </h2>
 
