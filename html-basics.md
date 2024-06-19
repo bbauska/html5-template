@@ -2106,7 +2106,11 @@ Iframes can include videos, maps, or entire web pages from other sources.
 
 The `<iframe>` HTML element represents a nested browsing context, embedding another HTML page into the current one. Each embedded browsing context has its own **session history** and **document**. The browsing context that embeds the others is called the parent browsing context. The topmost browsing context — the one with no parent — is usually the browser window, represented by the **Window** object.
 
-**Example**
+<div align="right">
+    <b><a href="#toc">↥ back to top</a></b>
+</div>
+
+<h4>Example</h4>
 
 ```html
 <!DOCTYPE html>
@@ -3005,6 +3009,10 @@ Elements     | Descriptions |
 | &lt;optgroup&gt; | It is used to define group-related options in a drop-down list. |
 
 <h3>Commonly Used Input Types in HTML Forms</h3>
+
+<div align="right">
+    <b><a href="#toc">↥ back to top</a></b>
+</div>
 
 <p>In HTML forms, various input types are used to collect different types of 
 data from users. Here are some commonly used input types:</p>
