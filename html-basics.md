@@ -2984,7 +2984,7 @@ elements, but is most common in media elements, like &lt;audio&gt;, &lt;embed&gt
 |----------------|--------|--------------------------------------------------------------------------|
 | ontoggle | script | Fires when the user opens or closes the &lt;details&gt; element |
 
-<h2 id="4-html-forms">4. Form Elements</h2>
+<h2 id="4-html-forms">04. Form Elements</h2>
 
 <p>The HTML &lt;form&gt; comprises several elements, each serving a unique purpose. For 
 instance, the &lt;label&gt; element is used to define labels for other &lt;form&gt; elements. 
@@ -3063,8 +3063,15 @@ as username and password with the button to submit the form.</p>
 ```
 
 <h5>Output:</h5>
-
-<image2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 04-02.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img class="displayed"
+  src="./images/04-image002.gif"
+  title="Form 02"
+  alt="Form 02."
+  style="width:40%" >
+</p>  
 
 <h4>2. HTML Forms Example:</h4>
 
@@ -3198,8 +3205,15 @@ styling for input fields and submission button.</p>
     </body>
 </html>
 ```
-
-<form 3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 04-03.  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img class="displayed"
+  src="./images/04-image003.png"
+  title="Form 03"
+  alt="Form 03."
+  style="width:40%" >
+</p>  
 
 <p>Here are some of the key attributes that can be used with the &lt;form&gt; element:</p>
 
@@ -3326,7 +3340,7 @@ headings are bold and centered. A table data/cell is defined with the "td" tag.<
 <h5>Syntax</h5>
 
 ```
-</td> Content...</td> 
+<td> Content...</td> 
 ```
 
 <h4>Table Rows</h4>
@@ -3336,7 +3350,7 @@ denoted by &lt;tr&gt; and &lt;/tr&gt; tag as a start & end tags.</p>
 <h5>Syntax</h5>
 
 ```
-</tr> Content...</tr> 
+<tr> Content...</tr> 
 ```
 
 <h4>Table Headers</h4>
@@ -3345,7 +3359,7 @@ The Headers are generally use to provide the Heading. The Table Headers can also
 <h5>Syntax</h5>
 
 ```
-</th> Content...</th> 
+<th> Content...</th> 
 ```
 
 <p><b>Example 1:</b> Creating a simple table in HTML using a table tag.</p>
@@ -4165,12 +4179,12 @@ any information on web pages in the ordered or unordered form.</p>
 
 | Tag | Description |
 |------|----------------------------------------|
-| <ul> | Defines an unordered list |
-| <ol> | Defines an ordered list |
-| <li> | Defines a list item |
-| <dl> | Defines a description list |
-| <dt> | Defines a term in a description list |
-| <dd> | Details the term in a description list |
+| &lt;ul&gt; | Defines an unordered list |
+| &lt;ol&gt; | Defines an ordered list |
+| &lt;li&gt; | Defines a list item |
+| &lt;dl&gt; | Defines a description list |
+| &lt;dt&gt; | Defines a term in a description list |
+| &lt;dd&gt; | Details the term in a description list |
 
 <h3>The HTML Unordered List or Bulleted List</h3>
 
@@ -4357,6 +4371,25 @@ and definition list. We have explained all three list types with examples.</p>
 
 
 <h2 id="8-html-url">08. HTML URL</h2>
+
+A Uniform Resource Locator (URL) is simply the address of a website to access the website content like www.geeksforgeeks.org. But certain characters are allowed to be used in the URL like alphabets A-Z and a-z, numbers 0-9, and a few special characters. They can be used as it is but the rest of the characters that are not in this list are used after encoding them to a suitable form. URL Encoding is the process of converting the URL into a valid format that is accepted by web browsers. 
+
+URL Encoding takes place by replacing all the characters that are not allowed by a % sign followed by two hexadecimal digits. These two hexadecimal values represent the numerical values of the character in the ASCII character set. For example, a space is not acceptable in a URL and is replaced by a ‘%20’ or a ‘+’ sign while encoding. Similarly, a $ sign is replaced by ‘%24’. 
+
+Syntax:
+A web address follows these syntax rules:
+
+scheme://prefix.domain:port/path/filename
+
+//Example
+https://www.geeksforgeeks.org/
+Scheme: It specifies the protocol used for communication, such as “https://” for secure communication or “http://” for unsecured communication.
+Prefix: It is an optional subdomain or www indicating the location of the resource within the domain.
+Domain: Identifies the website’s primary address, like “example.com”, indicating its unique location on the Internet.
+Port: Optional and signifies a specific endpoint for communication. Common values are 80 for HTTP and 443 for HTTPS.
+Path:It specifies the location or directory on the server where the resource is located.
+Filename: It refers to the specific file or resource within the specified path.
+Table of Content
 
 
 
