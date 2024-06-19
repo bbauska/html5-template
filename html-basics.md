@@ -2086,7 +2086,7 @@ Since the APIs are usually co-located with the server, the content is loaded sup
     <b><a href="#table-of-contents">↥ back to top</a></b>
 </div>
 
-<h2 id="7-html-iframe">HTML Iframe</h2>
+<h2 id="7-html-iframe">7. HTML Iframe</h2>
 
 HTML iframes offer a powerful way to embed external content, such as videos, maps, or other webpages, directly into your own webpage. This article provides an in-depth exploration of HTML iframes, their syntax, and how they can be used to enhance your web development projects.
 
