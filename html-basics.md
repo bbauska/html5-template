@@ -3002,10 +3002,10 @@ Elements     | Descriptions |
 | &lt;select&gt;   | It is used to create a drop-down list. |
 | &lt;textarea&gt; | It is used to get input long text content. |
 | &lt;fieldset&gt; | It is used to draw a box around other form elements and group the related data. |
-| &lt;legend&gt;	 | It defines a caption for fieldset elements. |
+| &lt;legend&gt;     | It defines a caption for fieldset elements. |
 | &lt;datalist&gt; | It is used to specify pre-defined list options for input controls. |
-| &lt;output&gt;	 | It displays the output of performed calculations. |
-| &lt;option&gt;	 | It is used to define options in a drop-down list. |
+| &lt;output&gt;     | It displays the output of performed calculations. |
+| &lt;option&gt;     | It is used to define options in a drop-down list. |
 | &lt;optgroup&gt; | It is used to define group-related options in a drop-down list. |
 
 <h3>Commonly Used Input Types in HTML Forms</h3>
@@ -3210,13 +3210,13 @@ styling for input fields and submission button.</p>
     The values can be “get” or “post”.</li>
   <li>target: This attribute specifies where to display the response received after 
     submitting the form. The values can be “_blank”, “_self”, “_parent”, “_top”, or 
-	the name of an iframe.</li>
+    the name of an iframe.</li>
   <li>enctype: This attribute is used when method=“post”. It specifies how the form-
     data should be encoded when submitting it to the server. The values can be 
-	“application/x-www-form-urlencoded”, “multipart/form-data”, or “text/plain”.</p>
+    “application/x-www-form-urlencoded”, “multipart/form-data”, or “text/plain”.</p>
   <li>autocomplete: This attribute specifies whether a form should have autocomplete 
     on or off. When autocomplete is on, the browser automatically completes values 
-	based on values that the user has entered before.</li>
+    based on values that the user has entered before.</li>
   <li>novalidate: This Boolean attribute specifies that the form-data should not 
     be validated on submission.</li>
 </ol>
@@ -3240,4 +3240,799 @@ of the <form> element is crucial for creating effective and user-friendly forms.
 <p>This article has provided a comprehensive overview of HTML forms, including their 
 syntax, key attributes, and various form elements. By mastering HTML forms, you 
 can create more engaging, user-friendly, and accessible web applications.</p>
+<!- end of html-forms -->
+
+<h2 id="5-html-tables">5. Tables</h2>
+
+<h3>What is HTML Tables?</h3>
+<p>An HTML Table is an arrangement of data in rows and columns in tabular format. 
+Tables are useful for various tasks, such as presenting text information and 
+numerical data. A table is a useful tool for quickly and easily finding connections 
+between different types of data. Tables are also used to create databases.</p>
+
+<h3>HTML Table Code Example</h3>
+
+```
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+
+<body>
+    <table>
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Priya</td>
+            <td>Sharma</td>
+            <td>24</td>
+        </tr>
+        <tr>
+            <td>Arun</td>
+            <td>Singh</td>
+            <td>32</td>
+        </tr>
+        <tr>
+            <td>Sam</td>
+            <td>Watson</td>
+            <td>41</td>
+        </tr>
+    </table>
+</body>
+```
+
+<h4>Output</h4>
+
+<img src="simple-table.png" alt="Simple HTML table.">
+
+<h3>Tags used in HTML Tables</h3>
+
+| HTML Tags    | Descriptions |
+|--------------|-------------------------------------------------------------------------------------|
+| &lt;table&gt; | Defines the structure for organizing data in rows and columns within a web page. |
+| &lt;tr&gt;    | Represents a row within an HTML table, containing individual cells. |
+| &lt;th&gt;    | Shows a table header cell that typically holds titles or headings. |
+| &lt;td&gt;    | Represents a standard data cell, holding content or data. |
+| &lt;caption&gt;    | Provides a title or description for the entire table. |
+| &lt;thead&gt;    | Defines the header section of a table, often containing column labels. |
+| &lt;tbody&gt;    | Represents the main content area of a table, separating it from the header or footer. |
+| &lt;tfoot&gt;    | Specifies the footer section of a table, typically holding summaries or totals. |
+| &lt;col&gt;    | Defines attributes for table columns that can be applied to multiple columns at once. |
+| &lt;colgroup&gt; |    Groups together a set of columns in a table to which you can apply formatting or properties collectively. |
+
+<h3>Defining Tables in HTML</h3>
+
+<p>An HTML table is defined with the "table" tag. Each table row is defined with 
+the "tr" tag. A table header is defined with the "th" tag. By default, table 
+headings are bold and centered. A table data/cell is defined with the "td" tag.</p>
+
+<h4>Table Cells</h4>
+<p>Table Cell are the building blocks for defining the Table. It is denoted with 
+&lt;td&gt; as a start tag &amp; &lt;/td&gt; as a end tag.</p>
+
+<h5>Syntax</h5>
+
+```
+</td> Content...</td> 
+```
+
+<h4>Table Rows</h4>
+<p>The rows can be formed with the help of combination of Table Cells. It is denoted by &lt;tr&gt; and &lt;/tr&gt; tag as a start & end tags.
+
+<h5>Syntax</h5>
+
+```
+</tr> Content...</tr> 
+```
+
+<h4>Table Headers</h4>
+The Headers are generally use to provide the Heading. The Table Headers can also be used to add the heading to the Table. This contains the <th> & </th> tags.
+
+<h5>Syntax</h5>
+
+```
+</th> Content...</th> 
+```
+
+<p><b>Example 1:</b> Creating a simple table in HTML using a table tag.</p>
+
+```
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+
+<body>
+    <table>
+        <tr>
+            <th>Book Name</th>
+            <th>Author Name</th>
+            <th>Genre</th>
+        </tr>
+        <tr>
+            <td>The Book Thief</td>
+            <td>Markus Zusak</td>
+            <td>Historical Fiction</td>
+        </tr>
+        <tr>
+            <td>The Cruel Prince</td>
+            <td>Holly Black</td>
+            <td>Fantasy</td>
+        </tr>
+        <tr>
+            <td>The Silent Patient</td>
+            <td> Alex Michaelides</td>
+            <td>Psychological Fiction</td>
+        </tr>
+    </table>
+</body>
+
+</html>
+```
+
+<h5>Output:</h5>
+<img simple table? goes here>
+
+<h4>Adding a border to an HTML Table</h4>
+<p>A border is set using the CSS border property. If you do not specify a border 
+for the table, it will be displayed without borders.</p>
+
+<h5>Syntax</h5>
+
+```
+table, th, td {
+      border: 1px solid black;
+}
+```
+
+<p><b>Example:</b> Addition of the border to the HTML Table.</p>
+
+```
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <table style="width:100%">
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Priya</td>
+            <td>Sharma</td>
+            <td>24</td>
+        </tr>
+        <tr>
+            <td>Arun</td>
+            <td>Singh</td>
+            <td>32</td>
+        </tr>
+        <tr>
+            <td>Sam</td>
+            <td>Watson</td>
+            <td>41</td>
+        </tr>
+    </table>
+</body>
+
+</html>
+```
+
+<h5>Output:</h5>
+<img: image with border>
+
+<h4>Adding Collapsed Borders in an HTML Table</h4>
+<p>For borders to collapse into one border, add the CSS border-collapse property.</p>
+
+<h5>Syntax</h5>
+
+```
+ table, th, td {
+       border: 1px solid black;
+       border-collapse: collapse;
+   }
+```
+
+<p><b>Example:</b> Addition of Collapsed Borders in HTML.</p>
+
+
+```
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+    table,
+    th,
+    td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    </style>
+</head>
+
+<body>
+    <table style="width:100%">
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Priya</td>
+            <td>Sharma</td>
+            <td>24</td>
+        </tr>
+        <tr>
+            <td>Arun</td>
+            <td>Singh</td>
+            <td>32</td>
+        </tr>
+        <tr>
+            <td>Sam</td>
+            <td>Watson</td>
+            <td>41</td>
+        </tr>
+    </table>
+</body>
+
+</html>
+```
+
+<h5>Output:</h5>
+<img: table with collapsed borders>
+
+<h4>Adding Cell Padding in an HTML Table</h4>
+<p>Cell padding specifies the space between the cell content and its borders. If 
+we do not specify a padding, the table cells will be displayed without padding.</p>
+
+<h5>Syntax</h5>
+
+```
+th, td {
+        padding: 20px;
+}
+```
+
+<p><b>Example:</b> Addition of Table cell padding in HTML.</p>
+
+```
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+    table,
+    th,
+    td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    
+    th,
+    td {
+        padding: 20px;
+    }
+    </style>
+</head>
+
+<body>
+    <table style="width:100%">
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Priya</td>
+            <td>Sharma</td>
+            <td>24</td>
+        </tr>
+        <tr>
+            <td>Arun</td>
+            <td>Singh</td>
+            <td>32</td>
+        </tr>
+        <tr>
+            <td>Sam</td>
+            <td>Watson</td>
+            <td>41</td>
+        </tr>
+    </table>
+</body>
+
+</html>
+```
+
+<h5>Output:</h5>
+<img: adding table cell padding>
+
+<h4>Adding Left Align Headings in an HTML Table</h4>
+<p>By default, the table headings are bold and centered. To left-align the table 
+headings, we must use the CSS text-align property.</p>
+
+<h5>Syntax</h5>
+
+```
+th {
+      text-align: left;
+}
+```
+
+<p><b>Example:</b> Explains the text-align property where the text is aligned to the left.</p>
+
+```
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 20px;
+        }
+
+        th {
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <table style="width:100%">
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Priya</td>
+            <td>Sharma</td>
+            <td>24</td>
+        </tr>
+        <tr>
+            <td>Arun</td>
+            <td>Singh</td>
+            <td>32</td>
+        </tr>
+        <tr>
+            <td>Sam</td>
+            <td>Watson</td>
+            <td>41</td>
+        </tr>
+    </table>
+</body>
+
+</html>
+```
+
+<h5>Output:</h5>
+<img: text-align property>
+
+<h4>Adding Border Spacing in an HTML Table</h4>
+<p>Border spacing specifies the space between the cells. To set the border-spacing 
+for a table, we must use the CSS border-spacing property.</p>
+
+<h5>Syntax</h5>
+
+```
+table {
+      border-spacing: 5px;
+}
+```
+
+<p><b>Example:</b> Explains the border space property to make the space between the Table cells.</p>
+
+```
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        table {
+            border-spacing: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <table style="width:100%">
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Priya</td>
+            <td>Sharma</td>
+            <td>24</td>
+        </tr>
+        <tr>
+            <td>Arun</td>
+            <td>Singh</td>
+            <td>32</td>
+        </tr>
+        <tr>
+            <td>Sam</td>
+            <td>Watson</td>
+            <td>41</td>
+        </tr>
+    </table>
+</body>
+
+</html>
+```
+
+<h5>Output:</h5>
+<img: border spacing property>
+
+
+<h4>Adding Cells that Span Many Columns in HTML Tables</h4>
+<p>To make a cell span more than one column, we must use the colspan attribute.</p>
+
+<p><b>Example:</b> Use of colspan attribute in HTML.</p>
+
+```
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 5px;
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Cell that spans two columns:</h2>
+    <table style="width:100%">
+        <tr>
+            <th>Name</th>
+            <th colspan="2">Telephone</th>
+        </tr>
+        <tr>
+            <td>Vikas Rawat</td>
+            <td>9125577854</td>
+            <td>8565557785</td>
+        </tr>
+    </table>
+</body>
+
+</html>
+```
+
+<h5>Output:</h5>
+<img: colspan attribute>
+
+
+<h4>Adding Cells that span many rows in HTML Tables</h4>
+<p>To make a cell span more than one row, we must use the rowspan attribute.</p>
+
+<p><b>Example:</b> Use of the rowspan attribute in HTML.</p>
+
+```
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 5px;
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Cell that spans two rows:</h2>
+    <table style="width:100%">
+        <tr>
+            <th>Name:</th>
+            <td>Vikas Rawat</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Telephone:</th>
+            <td>9125577854</td>
+        </tr>
+        <tr>
+            <td>8565557785</td>
+        </tr>
+    </table>
+</body>
+
+</html>
+```
+
+<h5>Output:</h5>
+<img: use of rowspan attribute>
+
+<h4>Adding a Caption in an HTML Table</h4>
+<p>To add a caption to a table, we must use the "caption" tag.</p>
+
+<h5>Syntax</h5>
+
+```
+<table style="width:100%">
+<caption>DETAILS</caption>
+```
+
+<p><b>Example:</b> HTML Table caption by specifying the CSS properties for setting its width.</p>
+
+```
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 20px;
+        }
+
+        th {
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <table style="width:100%">
+        <caption>DETAILS</caption>
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Priya</td>
+            <td>Sharma</td>
+            <td>24</td>
+        </tr>
+        <tr>
+            <td>Arun</td>
+            <td>Singh</td>
+            <td>32</td>
+        </tr>
+        <tr>
+            <td>Sam</td>
+            <td>Watson</td>
+            <td>41</td>
+        </tr>
+    </table>
+</body>
+
+</html>
+```
+
+<h5>Output:</h5>
+<img: adding the caption using the tab>
+
+<h4>Adding a Background Colour to the Table</h4>
+<p>A color can be added as a background in an HTML table using the "background-
+color" option.</p>
+
+<h5>Syntax</h5>
+
+```
+table#t01 {
+            width: 100%;
+            background-color: #f2f2d1;
+ }
+```
+
+<p><b>Example:</b> Addition of the Table background color in HTML.</p>
+
+```
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 5px;
+            text-align: left;
+        }
+
+        table#t01 {
+            width: 100%;
+            background-color: #f2f2d1;
+        }
+    </style>
+</head>
+
+<body>
+    <table style="width:100%">
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Priya</td>
+            <td>Sharma</td>
+            <td>24</td>
+        </tr>
+        <tr>
+            <td>Arun</td>
+            <td>Singh</td>
+            <td>32</td>
+        </tr>
+        <tr>
+            <td>Sam</td>
+            <td>Watson</td>
+            <td>41</td>
+        </tr>
+    </table>
+    <br />
+    <br />
+    <table id="t01">
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Priya</td>
+            <td>Sharma</td>
+            <td>24</td>
+        </tr>
+        <tr>
+            <td>Arun</td>
+            <td>Singh</td>
+            <td>32</td>
+        </tr>
+        <tr>
+            <td>Sam</td>
+            <td>Watson</td>
+            <td>41</td>
+        </tr>
+    </table>
+</body>
+
+</html>
+```
+
+<h5>Output:</h5>
+<img: adding a bkgrnd color>
+
+<h4>Creating Nested Tables</h4>
+<p>Nesting tables simply means making a Table inside another Table. Nesting tables 
+can lead to complex tables layouts, which are visually interesting and have the 
+potential of introducing errors.</p>
+
+<p><b>Example:</b> Nesting of HTML Table.</p>
+
+```
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+
+<body>
+    <table border=5 bordercolor=black>
+        <tr>
+            <td> First Column of Outer Table </td>
+            <td>
+                <table border=5 bordercolor=grey>
+                    <tr>
+                        <td> First row of Inner Table </td>
+                    </tr>
+                    <tr>
+                        <td> Second row of Inner Table </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
+```
+
+<h5>Output:</h5>
+
+<img: nested html table>
+
+<!-- end of html tables -->
+
+<h2 id="6-html-">06. </h2>
+
+
+<h2 id="7-html-">07. </h2>
+
+
+<h2 id="8-html-">08. </h2>
+
+
+
+<h2 id="9-html-">09. </h2>
+
+
+<h2 id="10-html-">10. </h2>
+
+
+<h2 id="11-html-">11. </h2>
+
+
+<h2 id="12-html-">12. </h2>
+
+
+<h2 id="13-html-">13. </h2>
+
+
+<h2 id="14-html-">14. </h2>
+
+
+<h2 id="15-html-">15. </h2>
+
+
+<h2 id="16-html-">16. </h2>
+
+
 
